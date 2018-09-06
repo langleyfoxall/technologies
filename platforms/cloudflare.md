@@ -35,3 +35,4 @@ on the CloudFlare management panel.
 * [API Documentation (v4)](https://api.cloudflare.com)
 * [PHP SDK](https://github.com/cloudflare/cloudflare-php)
 * [Resources](https://www.cloudflare.com/resources)
+* [Service Status](https://www.cloudflarestatus.com/)

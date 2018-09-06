@@ -2,7 +2,9 @@
 
 CloudFlare provides a fast and really easy interface to update your DNS records. 
 
-Click on the DNS tab to get started: ![DNS tab](images/dns-management/dns-tab.jpg "DNS tab")
+Click on the DNS tab to get started: 
+
+![DNS tab](images/dns-management/dns-tab.jpg "DNS tab")
 
 ## DNS Records
 
@@ -30,7 +32,9 @@ using that image when processing requests instead of always requesting the same 
 is a AWS requirement.
 ![DNS tab](images/dns-management/add-s3-bucket.png "DNS tab")
 
-2. You can now update your frameworks configuration to use the new DNS record we created. For this example we will use laravel and
+2. You can now update your frameworks configuration to use the new DNS record we created. For this example we will use Laravel and
 update the `.env` file to include the following.
 
 `AWS_URL=files.example.com.s3.amazonaws.com`
+
+## 
