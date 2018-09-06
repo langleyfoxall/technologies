@@ -24,6 +24,10 @@ CloudFlare sits between your origin server and the users request to provide addi
 block particular IP addresses or regions, and to reduce the response time of the request. This can be configured within the DNS page 
 on the CloudFlare management panel. 
 
+## Documentation
+
+* [DNS Management](cloudflare/dns-management.md) - Overview of the DNS page and how to add records.
+
 ## Useful Links
 
 * [CloudFlare](https://www.cloudflare.com)
