@@ -38,6 +38,9 @@ update the `.env` file to include the following.
 
 `AWS_URL=files.example.com.s3.amazonaws.com`
 
+You will still need to set up CORS on the bucket and potentially enable SSL, you can read more 
+[here](https://support.cloudflare.com/hc/en-us/articles/200168926-How-do-I-use-Cloudflare-with-Amazon-s-S3-Service).
+
 ## Cloudflare Nameservers
 
 This panel shows your nameservers that need to be assigned to your domain in order for you to use CloudFlare. This will have been
