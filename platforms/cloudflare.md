@@ -27,6 +27,7 @@ on the CloudFlare management panel.
 ## Documentation
 
 * [DNS Management](cloudflare/dns-management.md) - Overview of the DNS page and how to add records.
+* [Crypto](cloudflare/crypto.md) - Overview of the Crypto page and how it affects SSL.
 
 ## Useful Links
 
