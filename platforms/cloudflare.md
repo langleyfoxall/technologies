@@ -9,9 +9,9 @@ is to provide a faster and more secure web free of charge.
 
 A content delivery network does what it says in the name, it delivers content. The difference between delivering content from your 
 origin server and delivering it through a CDN can be quite significant for performance. CDN's deliver content from the closest data center
-to the initial request that the user makes. After one request is made to your origin server to fetch the content (e.g. images), CloudFlare 
-then caches and optimises the image(s) and stores it on their data center network so that the image(s) decrease in load times and in some 
-cases file size.
+to the initial request that the user makes. After one request is made to your origin server to fetch the files (e.g. images), CloudFlare 
+then caches the files, optimises the files and stores it on their data center network so that the files decrease in load times and 
+in some cases file size.
 
 You can see the list of CloudFlare data centers [here](https://www.cloudflare.com/network).
 
