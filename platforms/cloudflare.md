@@ -29,6 +29,7 @@ on the CloudFlare management panel.
 * [DNS Management](cloudflare/dns-management.md) - Overview of the DNS page and how to add records.
 * [Crypto](cloudflare/crypto.md) - Overview of the Crypto page and how it affects SSL.
 * [Speed](cloudflare/speed.md) - Overview of the Speed page and general performance improvements.
+* [Caching](cloudflare/caching.md) - Overview of the Caching page and the purging of assets.
 
 ## Useful Links
 
