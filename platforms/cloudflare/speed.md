@@ -26,5 +26,5 @@ Rocket Loader attempts to asynchronously load JavaScript files, including third 
 This can have a positive affect on Search Engine Optimisation however, it can potentially break some page functionality if it heavily
 relies on JavaScript.
 
-Usage of rocket loading heavily depends on your use-case since it can potentially break React.
+Usage of rocket loading heavily depends on your use-case since it can potentially break React as well as other third party libraries.
 
