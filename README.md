@@ -11,4 +11,5 @@ We work with a number of different software platforms. Each has their own set of
   * [Android apps](platforms/mobile/android.md)
 * Desktop
   * [Windows apps](platforms/desktop/windows.md)
-  
+* Other
+  * [Cloudflare](platforms/cloudflare.md)
