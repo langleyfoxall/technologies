@@ -8,7 +8,7 @@ Click on the Caching tab to get started:
 
 ## Purge Cache
 
-The Purge Cache options allow you purge individual, or the entire cache, of your static assets. When you update a file
+The Purge Cache options allow you purge individual static assets or purge the entire cache. When you update a file
 on the origin server (or S3 bucket) you may need to clear the cache if you would like the changes to appear immediately.
 
 You can purge individual files by select the `Custom Purge` options and entering the URL of the file(s) you would like to purge.

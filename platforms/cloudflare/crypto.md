@@ -30,7 +30,7 @@ You can order a dedicated SSL certificate (min. 5 USD per month) which is automa
 
 Origin Certificates are equivalent to a self-signed certificate and are not issued by a valid certification authority
 (e.g. Verisign, Comodo). The origin certificate is used to install on your origin server so that you can make use of 
-the `Full (strict)` option for your SSL settings. You can alternatively use Let's Encrypt on your origin server.
+the `Full (strict)` option within the SSL settings. You can alternatively use Let's Encrypt on your origin server.
 
 Generating an origin certificate is entirely free and can be valid for up to 15 years.
 
