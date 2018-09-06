@@ -12,4 +12,4 @@ We work with a number of different software platforms. Each has their own set of
 * Desktop
   * [Windows apps](platforms/desktop/windows.md)
 * Other
-  * [Cloudflare](platforms/cloudflare.md)
+  * [CloudFlare](platforms/cloudflare.md)

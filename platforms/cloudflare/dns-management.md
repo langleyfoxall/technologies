@@ -1,6 +1,6 @@
 # DNS Management
 
-CloudFlare provides a fast and really easy interface to update your DNS records. 
+The DNS section provides a fast and really easy interface to update your DNS records. 
 
 Click on the DNS tab to get started: 
 
@@ -37,4 +37,7 @@ update the `.env` file to include the following.
 
 `AWS_URL=files.example.com.s3.amazonaws.com`
 
-## 
+## Cloudflare Nameservers
+
+This panel shows your nameservers that need to be assigned to your domain in order for you to use CloudFlare. This will have been
+explained to you during the domain setup process.
