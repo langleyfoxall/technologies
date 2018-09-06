@@ -1,6 +1,6 @@
 # Tools
 
-A collection of useful toos
+A collection of useful tools
 
 * Terminal additions
   * [Hyper](https://hyper.is) (Cross-platform)
