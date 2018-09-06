@@ -21,8 +21,7 @@ A HTTP proxy sits between your origin server and the users request to forward th
 origin servers IP address to prevent attackers from directly attacking your origin server. 
 
 CloudFlare sits between your origin server and the users request to provide additional security features (e.g. Web Application Firewall),
-block particular IP addresses or regions, and to reduce the response time of the request. This can be configured within the DNS page 
-on the CloudFlare management panel. 
+block particular IP addresses or regions, and to improve general request performance (response times). 
 
 ## Documentation
 
