@@ -10,8 +10,9 @@ Click on the DNS tab to get started:
 
 This panel shows your domains DNS records. You may update these as much as you would like, the changes should be reflected 
 almost immediately. If you are adding A, AAAA, or CNAME records you can optionally route these through the CloudFlare network
-for enhanced performance and security by making sure the cloud is orange. You may disabled and enable the routing freely
-since this will not directly cause an error on your website - disabling this option will expose your origin servers IP address.
+for enhanced performance and security by making sure the cloud is orange. You may disable and enable the routing freely
+since this will not directly cause an error on your website or cause downtime - disabling this option will expose your origin 
+servers IP address.
 
 
 * Orange cloud - CloudFlare is routing the traffic through its network.

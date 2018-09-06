@@ -4,7 +4,7 @@ The crypto section is used for everything relating to SSL certificates, TLS and 
 
 Click on the Crypto tab to get started: 
 
-![DNS tab](images/crypto/crypto-tab.jpg "DNS tab")
+![Crypto tab](images/crypto/crypto-tab.jpg "Crypto tab")
 
 ## SSL
 
@@ -40,7 +40,7 @@ HSTS, HTTP Strict Transport Security, is a header which allows a website to spec
 It prevents the site from being accessed from HTTP entirely and requires you to always have a valid SSL certificate set up. It is
 important to note that once you have enabled HSTS, modifying the crypto settings to disabled SSL will make your site inaccessible.
 
-You can read more about HSTS [here]().
+You can read more about HSTS [here](https://blog.cloudflare.com/enforce-web-policy-with-hypertext-strict-transport-security-hsts).
 
 You can submit your domain to the Chrome preload list [here](https://hstspreload.org).
 
