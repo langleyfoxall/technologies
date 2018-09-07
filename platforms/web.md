@@ -52,3 +52,7 @@
 
 * Laravel Forge used for deployment
   * [Laravel Forge Features](https://forge.laravel.com/features)
+
+* CloudFlare is used on some sites to increase speed and relieve load
+  * [Official CloudFlare Site](https://www.cloudflare.com/)
+  * [Our CloudFlare Documentation](cloudflare/index.md)

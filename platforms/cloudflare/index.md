@@ -25,10 +25,10 @@ block particular IP addresses or regions, and to improve general request perform
 
 ## Documentation
 
-* [DNS Management](cloudflare/dns-management.md) - Overview of the DNS page and how to add records.
-* [Crypto](cloudflare/crypto.md) - Overview of the Crypto page and how it affects SSL.
-* [Speed](cloudflare/speed.md) - Overview of the Speed page and general performance improvements.
-* [Caching](cloudflare/caching.md) - Overview of the Caching page and the purging of assets.
+* [DNS Management](dns-management.md) - Overview of the DNS page and how to add records.
+* [Crypto](crypto.md) - Overview of the Crypto page and how it affects SSL.
+* [Speed](speed.md) - Overview of the Speed page and general performance improvements.
+* [Caching](caching.md) - Overview of the Caching page and the purging of assets.
 
 ## Useful Links
 
