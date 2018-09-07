@@ -14,6 +14,7 @@
 
 
 * PHP 7.0 & above
+   * [PHP Standards](php/standards.md)
    * [PHP Documentation](https://secure.php.net/)
    * New servers are deployed with PHP 7.2
 
