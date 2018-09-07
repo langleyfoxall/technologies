@@ -33,7 +33,7 @@ To see what Expo is capable of and for the quick start guide [visit the Expo doc
    * Push Notifications have to be sent through Expo's servers
    * The Expo app can be unreliable, especially on Android
 
-**See [Ejecting](#ejecting) for more information*
+**See [Ejecting](#detaching) for more information*
 
 #### Over The Air Updates
 Expo has support for OTAs, however there are numerous open issues regarding them on the Expo GitHub page and due to the fact that projects cannot be shared between multiple accounts the update requires access to the original developer's Expo account.
@@ -43,8 +43,8 @@ Expo has support for OTAs, however there are numerous open issues regarding them
 #### Cases where Expo cannot be used
    * Push notifications with custom sounds and images 
 
-#### Ejecting
-Expo has the ability to 'Eject' a project to an Android Studio and Xcode project. This allows use of native modules such as Android and Apple pay and allows other native modules to be installed and linked to the project such as PDF Viewers as well as writing your own code.
+#### Detaching
+Expo has the ability to 'Detach' project to an Android Studio and Xcode project. This allows use of native modules such as Android and Apple pay and allows other native modules to be installed and linked to the project such as PDF Viewers as well as writing your own code.
 
 ***This is not recommended, ejecting requires knowledge of Android and iOS build tools***
 
