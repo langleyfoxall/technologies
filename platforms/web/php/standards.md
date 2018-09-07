@@ -4,13 +4,13 @@
         *   [PSR-1](#php)   
         *   [PSR-2](#php)   
     *   [Laravel](#laravel)
-    *   [RESTful API's](#restful-api's)
+    *   [RESTful API's](#restful-apis)
 *   [Amendments](#amendments)
     *   [Variables](#variables)
     *   [Methods](#methods)
 *   [Adhering to standards](#adhering-to-standards)
-    *   [PhpStorm + PHP Code Sniffer](#phpstorm-+-php-code-sniffer)
-    *   [PhpStorm + PHP-CS-Fixer](#phpstorm-+-php-cs-fixer)
+    *   [PhpStorm + PHP Code Sniffer](#phpstorm--php-code-sniffer)
+    *   [PhpStorm + PHP-CS-Fixer](#phpstorm--php-cs-fixer)
 
 
 
