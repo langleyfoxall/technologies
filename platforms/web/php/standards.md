@@ -1,6 +1,8 @@
 # PHP Standards and Style Guide
 *   [Introduction](#introduction)
     *   [PHP](#php)
+        *   [PSR-1](#php)   
+        *   [PSR-2](#php)   
     *   [Laravel](#laravel)
     *   [RESTful API's](#restful)
 *   [Amendments](#amendments)
@@ -18,13 +20,16 @@ Our goal isn’t to rewrite the unspoken rules of languages - and most of what w
 The below documentation links should be followed unless defined otherwise in this document.
 
 <h4 id="php">PHP</h4>
+
    * [PSR-1](https://www.php-fig.org/psr/psr-1/)
    * [PSR-2](https://www.php-fig.org/psr/psr-2/)
    
 <h4 id="laravel">Laravel</h4>
+
    * [Laravel Documentation](https://laravel.com/docs/)
 
 <h4 id="restful">RESTful API's</h4>
+
    * [Best Practices for a pragmatic RESTful API](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
 
 With how we work being heavily framework based - these frameworks (especially Laravel) offer a TON of stuff to stop us from making messy code. A lot of the time this stuff will not be obvious unless you’re looking for it, so looking through the documentation top to bottom should be homework for everyone’s first encounter with the framework (If you haven’t done this, please do).
