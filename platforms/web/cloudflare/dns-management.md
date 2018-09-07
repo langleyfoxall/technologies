@@ -2,7 +2,7 @@
 
 The DNS section provides a fast and really easy interface to update your DNS records. 
 
-Click on the DNS tab to get started: 
+Go to the DNS tab to get started
 
 ![DNS tab](images/dns-management/dns-tab.jpg "DNS tab")
 

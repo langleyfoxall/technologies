@@ -2,7 +2,7 @@
 
 The Speed page on CloudFlare allows you manage asset minification and compression.
 
-Click on the Speed tab to get started: 
+Go to the Speed tab to get started
 
 ![Speed tab](images/speed/speed-tab.jpg "Speed tab")
 

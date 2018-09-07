@@ -2,7 +2,7 @@
 
 The crypto section is used for everything relating to SSL certificates, TLS and HTTPS rewriting.
 
-Click on the Crypto tab to get started: 
+Go to the Crypto tab to get started
 
 ![Crypto tab](images/crypto/crypto-tab.jpg "Crypto tab")
 

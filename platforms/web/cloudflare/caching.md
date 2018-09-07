@@ -2,7 +2,7 @@
 
 The Caching tab allows you to purge assets, set the caching level as well as enable or disable development mode.
 
-Click on the Caching tab to get started: 
+Go to the Caching tab to get started
 
 ![Caching tab](images/caching/caching-tab.jpg "Caching tab")
 
