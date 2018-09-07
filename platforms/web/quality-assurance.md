@@ -148,10 +148,3 @@ It should be used as a guide to ensure a great & consistent experience for the e
 
 - Is used, even if it's just a basic setup
 - If Travis CI is being used, ensure third party API keys are input directly into Travis CI’s website relevant to the project and make sure “Display value in build log” is not checked.
-
-
-
-
-
-
-
