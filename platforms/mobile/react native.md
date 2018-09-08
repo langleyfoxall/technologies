@@ -135,7 +135,7 @@ To see the code standards please refer to the documentation for the respective l
 ## Recommended Packages
 
 | Package  | Information | Expo Compatible |
-| ------------- | ------------- | ------------- |
+| ------------- | ------------- | :-------------: |
 | [React Navigation](https://reactnavigation.org/)  | React Navigation is the de-facto React Native Navigation Package, it is already included by default on Expo packages.  | :heavy_check_mark: |
 
 ## Blacklisted Packages
