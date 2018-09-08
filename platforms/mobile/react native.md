@@ -103,7 +103,7 @@ For information on how to deploy React Native apps please see the [Android Deplo
 ## Recommended Packages
 
 | Package  | Information | Expo Compatible |
-| ------------- | ------------- |
+| ------------- | ------------- | ------------- |
 | [React Navigation](https://reactnavigation.org/)  | React Navigation is the de-facto React Native Navigation Package, it is already included by default on Expo packages.  | :heavy_check_mark: |
 
 ## Blacklisted Packages
