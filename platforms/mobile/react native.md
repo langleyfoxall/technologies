@@ -42,7 +42,7 @@ To see what Expo is capable of and for the quick start guide [visit the Expo doc
 #### Prerequisite knowledge
 
    * ReactJS
-   * CSS
+   * NativeCSS, which is inspired by CSS
 
 #### Advantages
 
@@ -84,7 +84,7 @@ Using pure React Native gives the developer more freedom than using Expo but req
 #### Prerequisite knowledge
 
    * ReactJS
-   * CSS
+   * NativeCSS, which is inspired by CSS
    * Xcode
    * Android Studio
    * Obj-C
