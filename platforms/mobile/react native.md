@@ -100,6 +100,15 @@ For more information see the React Native documentation for [iOS](https://facebo
 
 For information on how to deploy React Native apps please see the [Android Deployment Guide (TODO)]() and the [iOS Deployment Guide (TODO)](). Since React Native generates a seperate Xcode and Android Studio Project the procedures are the same.
 
+## Code Standards
+
+To see the code standards please refer to the documentation for the respective languages.
+
+   * [ReactJS]()
+   * [Obj-C]()
+   * [Swift]()
+   * [Java]()
+
 ## Recommended Packages
 
 | Package  | Information | Expo Compatible |
