@@ -5,7 +5,7 @@ React Native is a mobile framework developed and maintained by Facebook that all
 
 An open source toolchain called [Expo](https://expo.io) has also been developed around React Native. Expo removes the requirement for prerequisite knowledge of Android and iOS development. Having only a JavaScript file that a ReactJS app can be built using the exp command line tools or the Expo XDE application. The JavaScript file is bundled and delivered over the air to the developers device or simulator running the Expo app. *Note: You are required to download the Expo app and create an account if you wish to develop this way.*
 
-Both Pure React Native and Expo applications can be built mostly like a regular ReactJS Application and most Node Modules will be compatible. A notable exception to this is Routing and Navigation. [See recommended packages]().
+Both Pure React Native and Expo applications can be built mostly like a regular ReactJS Application and most Node Modules will be compatible. A notable exception to this is Routing and Navigation. [See recommended packages](#recommended packages).
 
 ## Which should I use? ##
 
@@ -96,8 +96,22 @@ Native code can be written and bridged to the JavaScript code, the code must be 
 
 For more information see the React Native documentation for [iOS](https://facebook.github.io/react-native/docs/native-modules-ios) and [Android](https://facebook.github.io/react-native/docs/native-modules-android).
 
-#### Native code
+#### Deploying
 
-| Package  | Information |
+For information on how to deploy React Native apps please see the [Android Deployment Guide (TODO)]() and the [iOS Deployment Guide (TODO)](). Since React Native generates a seperate Xcode and Android Studio Project the procedures are the same.
+
+## Recommended Packages
+
+| Package  | Information | Expo Compatible |
 | ------------- | ------------- |
-| [React Navigation](https://reactnavigation.org/)  | React Navigation is the de-facto React Native Navigation Package, it is already included by default on Expo packages. It supports custom transition animations.  |
+| [React Navigation](https://reactnavigation.org/)  | React Navigation is the de-facto React Native Navigation Package, it is already included by default on Expo packages.  | :heavy_check_mark: |
+
+## Blacklisted Packages
+
+| Package  | Reason |
+| ------------- | ------------- |
+| [React Router Flux](https://github.com/aksonov/react-native-router-flux/)  | Breaking updates and long standing issues .  |
+
+## Useful Links
+
+   * [Awesome React Native components](http://www.awesome-react-native.com/#components)
