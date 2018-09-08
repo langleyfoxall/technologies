@@ -1,5 +1,28 @@
 # Langley Foxall React Native
 
+
+
+*   [Introduction](#introduction)
+*   [Which should I use?](#whichshouldiuse)
+*   [Expo](#expo)
+    *   [Prerequisite knowledge](#Prerequisiteknowledge)
+    *   [Advantages](#Advantages)
+    *   [Disadvantages](#Disadvantages)
+    *   [Over The Air Updates](#OverTheAirUpdates)
+    *   [Cases where Expo cannot be used](#CaseswhereExpocannotbeused)
+    *   [Detaching](#detaching)
+*   [Pure React Native](#purereactnative)
+    *   [Prerequisite knowledge](#Prerequisiteknowledge)
+    *   [Advantages](#Advantages)
+    *   [Disadvantages](#Disadvantages)
+    *   [Linking Libraries](#linkinglibraries)
+    *   [Native Code](#nativecode)
+    *   [Deploying](#deploying)
+*   [Code Standards](#codestandards)
+*   [Recommended Packages](#recommendedpackages)
+*   [Blacklisted Packages](#blacklistedpackages)
+*   [Useful Links](#usefullinks)
+
 ## Introduction
 React Native is a mobile framework developed and maintained by Facebook that allows the developer to develop apps for Android and iOS simultaneously. React Native generates an Android Studio and Xcode that will automatically bundle a JavaScript file that will control a majority of the logic and UI of the app on build.
 
