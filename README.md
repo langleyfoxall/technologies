@@ -2,9 +2,8 @@
 
 Langley Foxall develop custom web applications and mobile apps to make businesses more efficient.
 
-We work with a number of different software platforms. Each has their own set of appropriate tools and technologies.
-
-* [Tools](tools.md)
+We work with a number of different software platforms. Each has their own set of appropriate [tools](tools.md) and technologies.
+ 
 * [Web applications](platforms/web/web.md)
 * Mobile
   * [iOS apps](platforms/mobile/ios.md)
