@@ -15,4 +15,4 @@ A collection of useful tools
 
 A collection of useful files
 
-* [.gitignore](gitignore.md)
+* [.gitignore](.gitignore)
