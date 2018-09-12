@@ -1,4 +1,7 @@
-# 🦊 Langley Foxall Technologies
+<div align="center">
+    <img src="assets/images/langley-foxall-logo.png" alt="Langley Foxall logo"> 
+    <h1 align="center">Langley Foxall Technologies</h1>
+</div>
 
 Langley Foxall develop custom web applications and mobile apps to make businesses more efficient.
 
