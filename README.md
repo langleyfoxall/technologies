@@ -1,4 +1,7 @@
-# ![Langley Foxall Logo](assets/images/langley-foxall-logo.png) Langley Foxall Technologies
+<p align="center">
+    <img src="assets/images/langley-foxall-logo.png" alt="Langley Foxall logo"> 
+    Langley Foxall Technologies
+</p>
 
 Langley Foxall develop custom web applications and mobile apps to make businesses more efficient.
 
