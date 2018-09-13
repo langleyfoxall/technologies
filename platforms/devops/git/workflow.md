@@ -1,14 +1,21 @@
 # Langley Foxall Git Workflow
 
 Deriving from [GitFlow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow), we 
-have decidedon the best route forward for how we should work with git.
+have decided on the best route forward for how we should work with git.
 
 ## Branches
+Branches should be harmonious between projects and follow a set standard. Branch setup should be completed
+after the initial commit, with the correct protection rules in place.
+
 * `master` should be the working development branch [UNSTABLE]
 * `feature/*` branches created from master for each feature
 * `hotfix/*` branches should only be created off of `staging` or `production` and merged accordingly.
 * `staging` should contain the latest, customer visible changes and be on the `Workshop`
 * `production` should contain stable code on live servers.
+
+#### Open Source
+Open source projects should always be forked, rather than branched in the same repo. This ensures that the
+original repository is a reviewed and clean set of lots of contributions.
 
 #### Branch Protection
 `master` and `production` should require pull requests to push code to. 
@@ -33,3 +40,14 @@ issues or efficiency issues.
 
 Reviewers must directly link to the relevant section of the documentation when reviewing - refraining from
 re-wording the documentation in their own words.
+
+## Commits
+
+#### Frequency
+* Commits should be made after every task is completed. 
+* Commits should NEVER be more than a day apart.
+
+#### Messages
+Commit messages should be:
+* Descriptive
+* Commands (Add, not Added. Fix, not Fixed.)
