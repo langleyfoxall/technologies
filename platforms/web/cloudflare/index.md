@@ -32,7 +32,7 @@ block particular IP addresses or regions, and to improve general request perform
 
 ## Notes
 
-* CloudFlare has a limit of 100MB for an upload, per request.
+* CloudFlare has a limit of 100MB for an upload, per request, on the Free plan.
 * Enabling the Rocket Loader can potentially break the JavaScript functionality on a page.
 
 ## Useful Links
