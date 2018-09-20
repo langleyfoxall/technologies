@@ -45,6 +45,21 @@ Variable names MUST be defined in camelCase
 #### Methods
 Opening braces for methods MUST be on the same line as the declaration, and closing braces MUST go on the next line after the body.
 
+Chained methods MUST be on new lines, and be indented with one tab, as follows:
+
+```
+$email->from('foo@example.com')->to('bar@example.com')->subject('A great message')->send();
+```
+
+Becomes
+
+```
+$email->from('foo@example.com')
+    ->to('bar@example.com')
+    ->subject('A great message')
+    ->send();
+```
+
 ### Adhering to standards
 It’s all well and good having a set standard outlined - but following it can be difficult unless you’re always thinking about following it.
 
