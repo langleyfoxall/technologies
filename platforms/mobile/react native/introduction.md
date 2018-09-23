@@ -107,21 +107,8 @@ Using pure React Native gives the developer more freedom than using Expo but req
    * Installing libraries can be tricky when getting to the Android portion
    * Native code must be written seperetly in Java and Obj-C or Swift
 
-#### Linking libraries
-
-As is the case with Expo node modules can simply be installed via NPM. However pure React Native also allows you to link native libraries giving you access to APIs such as Apple and Android pay and the camera. However installing these packages is not always as easy as using `npm install`. Instructions to install these libraries can be specific to the library as a special configuration in Xcode or Android studio may be needed. The first component that needs to be installed is the node module so that the library can be interacted with by the JavaScript. This is done the standard way using `npm install`. Installing the native code for the iOS project is usually as easy with the process being automated with the command `react-native link`. However every library will have different instructions to get it running on Android, always requiring dependencies to be added to the Gradle file [(read about the Android Dependencies here TODO: Niles)]().
-
-For more detailed information and instructions on manual linking on iOS [visit the React Native documentation on this topic](https://facebook.github.io/react-native/docs/linking-libraries-ios).
-
-#### Native code
-
-Native code can be written and bridged to the JavaScript code, the code must be written seperetly for Android and iOS. React Native supports Obj-C, Swift and Java officially but it is possible to bridge Kotlin code as well. Native functions can have callbacks, return promises or be void.
-
-For more information see the React Native documentation for [iOS](https://facebook.github.io/react-native/docs/native-modules-ios) and [Android](https://facebook.github.io/react-native/docs/native-modules-android).
-
-#### Deploying
-
-For information on how to deploy React Native apps please see the [Android Deployment Guide (TODO)]() and the [iOS Deployment Guide (TODO)](). Since React Native generates a seperate Xcode and Android Studio Project the procedures are the same.
+#### Quick Start
+See the quickstart guide for information on setting up a project, writing code, installing modules and deployment.
 
 ## Code Standards
 
