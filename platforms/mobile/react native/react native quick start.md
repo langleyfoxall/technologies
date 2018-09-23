@@ -70,3 +70,7 @@ For deployment for iOS fastlane should be used. The Xcode project generated when
 To generate a development APK for distribution for testing select `Build` from the menu bar and click on `Build APK(s)`. Follow on screen instructions to build an unsigned APK. ***This build is not suitable for production distribution***.
 
 To build an app for production the Android Studio project can be treated as a normal android studio project and you can follow the Android distribution guide.
+
+## Trouble shooting ##
+### I ran a command and got an error that contained 'Permission Denied'
+Run the command again with `sudo`.

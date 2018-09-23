@@ -66,15 +66,18 @@ Expo has support for OTAs for apps that have been distributed to users through t
 ***It is not recommended to use OTAs at this time.***
 
 #### Cases where Expo cannot be used
-   * Push notifications with custom sounds and images 
+   * Push notifications
    * Background code execution *(Location tracking etc...)*
    * Bluetooth
    * WebRTC
+   * Video playback
 
 #### Detaching
+This refers to detatching an existing Expo app to add custom features. Detatching a project to build it can be used to circumvent using Expo's build servers, which is recommended.
+
 Expo has the ability to 'Detach' project to an Android Studio and Xcode project. This allows use of native modules such as Android and Apple pay and allows other native modules to be installed and linked to the project such as PDF Viewers.On top of this you can write your own native code and link it to the JavaScript code.
 
-***This is not recommended, ejecting requires knowledge of Android and iOS build tools***
+***This is not recommended, detatching requires knowledge of Android and iOS build tools***
 
 If you want to use Native Code, chances are you will not be taking advantage of all of Expo's features and extra unneeded overhead will be added. If you need features that Expo provides such as the Camera and the Gyroscope you will spend less time using Pure React Native and installing and linking those modules yourself than getting the detached Expo project working.
 
