@@ -18,6 +18,11 @@
    * [PHP Documentation](https://secure.php.net/)
    * New servers are deployed with PHP 7.2
 
+### Troubleshooting
+
+- I get a `MethodNotAllowedException` (`405`) even when my routes are defined properly, and when I go to a route that doesn't exist I get a `NotFoundException` (`404`).
+  - Check that you are using the right protocol (`http/https`).
+
 ## Frontend
 
 * Laravel Mix used for JS & SCSS asset compilation
