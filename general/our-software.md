@@ -12,13 +12,23 @@ First and foremost, developers should be pushing to be the best. Producing code 
 example, that they wouldn't want to re-write, and wouldn't mind working on in the future. Maintenance and the future
 longevity of projects, their architecture and codebase are the most important values. 
 
-##### Make it right
+#### Make it right
 Focusing on a solution before implementation should be a universal trait of developers. There are many ways to skin a
 cat but most of them aren't efficient, understandable or clean. 
 
 Ensuring that the solution is done properly in the first place means that someone won't groan when they find it.
 
-##### Make it better
+##### Broken Windows
+There is an [analogy](https://pragprog.com/the-pragmatic-programmer/extracts/software-entropy) in the book the 
+[Pragmatic Programmer](https://www.amazon.co.uk/Pragmatic-Programmer-Andrew-Hunt/dp/020161622X) (Which is available in our
+internal library, should you want to read it), which talks about how neighbourhoods start their descent into decay the
+moment there is one broken window (or in our case, piece of poor code).
+
+The premise is once there is one smashed window it's more *okay* for there to be another, and another, until finally it's
+a *bad* neighbourhood. By ensuring we keep all of the windows in tact, we ensure that the codebase stays clean and 
+good to work on.
+
+#### Make it better
 Making it right is fantastic for future projects, but what about older, inherited projects that you already hate working
 on? 
 
@@ -36,7 +46,7 @@ codebase isn't going to do anyone any good.
 Now to contrast on everything that we just spoke about. Business is business and sometimes there are time constraints to
 how *nice* we can make the UI or what *"helpful features"* we can put in.
 
-##### MoSCoW Method
+#### MoSCoW Method
 Shamelessly pulled from [wikipedia](https://en.wikipedia.org/wiki/MoSCoW_method);
 
 > The MoSCoW method is a prioritization technique used in management, business analysis, project management, and software 
@@ -47,7 +57,7 @@ This becomes vital when planning the development schedule of a project. Knowing 
 becomes important when it comes to stretching their budget as far as it will go. They might *want* a rear view camera
 in their car, but they should probably have the engine first.
 
-##### Make it quickly
+#### Make it quickly
 There is a certain art to building software to a budget, and building solid software at that. Often developers can find
 that they want to move onto the less fundamental and less boring part of a project to focus on some interesting logic, 
 or that they want to see a view scaffolded completely with the must-have tasks **and** the nice-to-haves.
@@ -57,8 +67,8 @@ CRUD functionality or building some static views that don't have much going on, 
 important to the user journey/experience. This ensures that the user will have the most complete *flow* at all times
 throughout the project
 
-##### MVP
-We see this work more commonly in a MVP (Minimum Viable Product) methodology, where you write the least amount of code
+##### Minimum Viable Product (MVP)
+We see this work more commonly in an MVP methodology, where you write the least amount of code
 to satisfy a story point. This enables us to get the most functionality in the smallest amount of time, push that
 functionality out to the end users for review and move on, knowing whether it aligns with the users thoughts or not.
 
@@ -74,12 +84,15 @@ stars have aligned and this will be the perfect project and everyone will be hap
 
 ![Actual Timeline](images/our-software/actual-timeline.png)
 
-Unfortunately we all now that's not how things plan out, and with just a few minor issues that extend a few of the tasks,
-the original deadline comes and goes and we don't even have all of the must have features in yet, meaning we cannot
+Unfortunately we all know that's not how things plan out, and with just a few minor issues that extend a few of the tasks,
+the original deadline comes, and goes, and we don't even have all of the must have features in yet, meaning we cannot
 deploy this - we are forced to make up the different and the project is late. 
 
 ![Rearranged Timeline](images/our-software/rearranged-timeline.png)
 
 With just a little bit of planning we can actually re-arrange the order in which we do things. Tasks might take slightly
-longer here or there but it's okay because the project is already at a state where it is more than deliverable at the
-deadline, meets the clients budgets and means they can get using the software - without compromising the company.
+longer here or there but it's okay because the project is already at a state where it is **more** than deliverable at the
+deadline, meets the clients budgets and means they can get using the software - without compromising the company to work
+unexpected hours to get it finished.
+
+
