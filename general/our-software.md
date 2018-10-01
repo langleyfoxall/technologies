@@ -1,4 +1,4 @@
-# Langley Foxall Software Philosophy
+# 📚 Langley Foxall Software Philosophy
 
 Langley Foxall have grown quickly over the past few years through building a culture of trust and quality between ourselves
 and our customers. 
