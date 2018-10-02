@@ -1,6 +1,6 @@
 # 📚 Langley Foxall Software Philosophy
 
-Langley Foxall have grown quickly over the past few years through building a culture of trust and quality between ourselves
+Langley Foxall has grown quickly over the past few years through building a culture of trust and quality between ourselves
 and our customers. 
 
 Due to this being the main source of our scaling, this means that we think it's important to keep that culture going as
@@ -13,7 +13,7 @@ example, that they wouldn't want to re-write, and wouldn't mind working on in th
 longevity of projects, their architecture and codebase are the most important values. 
 
 #### Make it right
-Focusing on a solution before implementation should be a universal trait of developers. There are many ways to skin a
+Focusing on a solution before implementation should be a universal trait among developers. There are many ways to skin a
 cat but most of them aren't efficient, understandable or clean. 
 
 Ensuring that the solution is done properly in the first place means that someone won't groan when they find it.
@@ -24,8 +24,8 @@ There is an [analogy](https://pragprog.com/the-pragmatic-programmer/extracts/sof
 internal library, should you want to read it), which talks about how neighbourhoods start their descent into decay the
 moment there is one broken window (or in our case, piece of poor code).
 
-The premise is once there is one smashed window it's more *okay* for there to be another, and another, until finally it's
-a *bad* neighbourhood. By ensuring we keep all of the windows in tact, we ensure that the codebase stays clean and 
+The premise is once there is one smashed window it's *okay* for there to be another, and another, until finally it's
+a *bad* neighbourhood. By ensuring we keep all of the windows intact, we ensure that the codebase stays clean and 
 good to work on.
 
 #### Make it better
@@ -33,10 +33,10 @@ Making it right is fantastic for future projects, but what about older, inherite
 on? 
 
 EVERYONE has to work on a "bad" project every now and again. It may be inherited, may be some code that a colleague
-wrote, hell - it might even be code that you wrote before you were the wise developer you are today..
+wrote, hell - it might even be code that you wrote before you were the wise developer you are today...
 
 Regardless, projects are only "good" to work on if they're done to a workable standard. This is sometimes hard to achieve
-in a longstanding project that doesn't have the time or budget to be re-written or ripped apart.
+in a longstanding project that doesn't have the time or budget to be rewritten or ripped apart.
 
 One way you can ensure the slow improvement of a codebase is to **leave a file better than you found it**. Sometimes it's
 easy to shift the blame of technical debt onto others than to get stuck in and sort issues out, but adding to a poor
@@ -62,7 +62,7 @@ There is a certain art to building software to a budget, and building solid soft
 that they want to move onto the less fundamental and less boring part of a project to focus on some interesting logic, 
 or that they want to see a view scaffolded completely with the must-have tasks **and** the nice-to-haves.
 
-No matter what you do - **PLEASE PLEASE** refrain from doing this. There are times when you will be building some repetitive
+No matter what you do - **PLEASE, PLEASE** refrain from doing this. There are times when you will be building some repetitive
 CRUD functionality or building some static views that don't have much going on, but most of the time these are the most
 important to the user journey/experience. This ensures that the user will have the most complete *flow* at all times
 throughout the project
@@ -72,7 +72,7 @@ We see this work more commonly in an MVP methodology, where you write the least 
 to satisfy a story point. This enables us to get the most functionality in the smallest amount of time, push that
 functionality out to the end users for review and move on, knowing whether it aligns with the users thoughts or not.
 
-This also means that we get any nasty suprises or hiccups as soon as possible throughout the timeline, which helps
+This also means that we get any nasty surprises or hiccups as soon as possible throughout the timeline, which helps
 project managers understand where time might be saved, or where we may need some more resource to bring in the deadline.
 
 This is usually explained best in a graphic.
