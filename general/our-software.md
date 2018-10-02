@@ -4,7 +4,7 @@ Langley Foxall has grown quickly over the past few years through building a cult
 and our customers. 
 
 Due to this being the main source of our scaling, this means that we think it's important to keep that culture going as
-we scale, which means ensuring the developers are on the same page when it comes to building the product that has gotten
+we grow, which means ensuring the developers are on the same page when it comes to building the product that has gotten
 us this far.
 
 ### Technical Excellence
@@ -68,7 +68,7 @@ important to the user journey/experience. This ensures that the user will have t
 throughout the project
 
 ##### Minimum Viable Product (MVP)
-We see this work more commonly in an MVP methodology, where you write the least amount of code
+We see the 'make it quickly' work more commonly in an MVP methodology, where you write the least amount of code
 to satisfy a story point. This enables us to get the most functionality in the smallest amount of time, push that
 functionality out to the end users for review and move on, knowing whether it aligns with the users thoughts or not.
 
@@ -86,13 +86,13 @@ stars have aligned and this will be the perfect project and everyone will be hap
 
 Unfortunately we all know that's not how things plan out, and with just a few minor issues that extend a few of the tasks,
 the original deadline comes, and goes, and we don't even have all of the must have features in yet, meaning we cannot
-deploy this - we are forced to make up the different and the project is late. 
+deploy this - we are forced to make up the difference and the project is late. 
 
 ![Rearranged Timeline](images/our-software/rearranged-timeline.png)
 
-With just a little bit of planning we can actually re-arrange the order in which we do things. Tasks might take slightly
+With just a little bit of planning we can actually rearrange the order in which we do things. Tasks might take slightly
 longer here or there but it's okay because the project is already at a state where it is **more** than deliverable at the
-deadline, meets the clients budgets and means they can get using the software - without compromising the company to work
+deadline, meets the clients budgets and means they can start using the software - without compromising the company to work
 unexpected hours to get it finished.
 
 
