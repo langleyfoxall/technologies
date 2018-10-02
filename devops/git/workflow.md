@@ -7,8 +7,8 @@ have decided on the best route forward for how we should work with git.
 Branches should be harmonious between projects and follow a set standard. Branch setup should be completed
 after the initial commit, with the correct protection rules in place.
 
-* `master` should be the working development branch [UNSTABLE]
-* `feature/*` branches created from master for each feature
+* `develop` should be the working development branch [UNSTABLE]
+* `feature/*` branches created from develop for each feature
 * `hotfix/*` branches should only be created off of `staging` or `production` and merged accordingly.
 * `staging` should contain the latest, customer visible changes and be on the `Workshop`
 * `production` should contain stable code on live servers.
@@ -18,17 +18,16 @@ Open source projects should always be forked, rather than branched in the same r
 original repository is a reviewed and clean set of lots of contributions.
 
 #### Branch Protection
-`master` and `production` should require pull requests to push code to. 
+`develop` and `production` should require pull requests to push code to. 
 
-The `master` branch should be reviewed by at least a development peer, and any code going to `production`
+The `develop` branch should be reviewed by at least a development peer, and any code going to `production`
 should be reviewed by at least `2` people, with one of those being a Senior/Lead Developer.
 
 #### Feature Branches
-Feature branches are intended to hold code away from the `master` branch whilst in development, in order to
-keep the `master` branch functional (for the most part) and complete at all times.
+Feature branches are intended to hold code away from the `develop` branch whilst in development, in order to
+keep the `develop` branch functional and complete at all times.
 
-Once a feature has been completed and tested, a Pull Request should be created to merge that feature into 
-the `master` branch. This allows for another team member to sanity check the code and for Travis CI to run 
+Once a feature has been completed and tested, a Pull Request should be created to merge that feature into the `develop` branch. This allows for another team member to sanity check the code and for Travis CI to run 
 any tests/linting.
 
 In the case that the project is a solo project, an external reviewer should be requested. This should be a
