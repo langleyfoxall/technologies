@@ -6,7 +6,9 @@ When it comes to multiple developers working on the same project, everyone has t
 
 Having a style guide that we all follow means that all the project's source code is consistent across the board and means that a developer joining the project will not have to battle through multiple different styles of writing, only to add their own style and complicate the project further, all of this leading to eventual software rot.
 
-The following style guides are currently outlined
+The following style guides are currently outlined:
 
 - Javascript
-  - [Core](Javascript/core.md)
+  - [Core](javascript/core.md)
+- PHP
+  - [Core](php/core.md)

@@ -8,13 +8,11 @@
    * [Our Laravel Boilerplate](https://github.com/langleyfoxall/laravel-boilerplate)
    * New projects are typically started with the latest stable version, via our Laravel Boilerplate
 
-
 * Laravel Homestead used as deployment environment
    * [Homestead Documentation](https://laravel.com/docs/homestead)
 
-
 * PHP 7.0 & above
-   * [PHP Standards](php/standards.md)
+   * [Core PHP Standards](/styleguides/php/core.md)
    * [PHP Documentation](https://secure.php.net/)
    * New servers are deployed with PHP 7.2
 
@@ -23,7 +21,6 @@
 * Laravel Mix used for JS & SCSS asset compilation
    * [Mix documentation](https://laravel.com/docs/mix)
    * [Basic Example Mix File](https://github.com/langleyfoxall/laravel-boilerplate/blob/master/webpack.mix.js)
-
 
 * React
    * [React Documentation](https://reactjs.org/docs/getting-started.html)

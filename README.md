@@ -15,3 +15,4 @@ We work with a number of different software platforms. Each has their own set of
 * 🖥 Desktop
   * [🖼 Windows apps](platforms/desktop/windows.md)
 * 🛠 [DevOps](devops/devops.md)
+* 🔢 [Style Guides](styleguides/styleguides.md)
