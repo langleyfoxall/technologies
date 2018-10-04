@@ -5,7 +5,8 @@ iOS is a big part of the company and it's what got us started. We write our iOS 
 Because Swift is a reletively new language and that iOS itself changes every year, ensuring we have an up to date guide full of good-to-knows & best practices is the key to ensuring we stay on top of iOS.
 
 ## Good to Knows
-- To submit your app to the app store you have to upload iPad Pro screenshots, this can cause issues because we often don't design our apps for the 12.9" display and because of this the constraints for the app's layout could not be compatible. Please ensure your app is compatible with the iPad Pro at a minimum.
+- If your app is designed for iPads, you will need to upload iPad Pro screenshots when submitting your app to the app store, this can cause issues because we often don't design our apps for the 12.9" display and because of this the constraints for the app's layout could not be compatible. Please ensure your app is compatible with the iPad Pro at a minimum.
+- If your app is designed for iPhones, you will need to upload iPhone X screenshots when submitting your app to the app store, this shouldn't be too big of an issue because the iPhone X screen size is very similair to other devices in the iPhone family.
 - Even if your app is built for iPad only, it still has to work on iPhone through the scaling feature used when running iPad apps on iPhone (look at apps like Snapchat & Instagram)
 
 ## Tools
