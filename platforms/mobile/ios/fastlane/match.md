@@ -38,6 +38,6 @@ If your project already has a `Matchfile` then Match has already been setup for 
 If your project doesn't have a `Matchfile` then you need to init Match for your project, run the command `fastlane match init`, you can then proceed with the commands in the above section.
 
 # Troubleshooting
-1. When running the command `fastlane match [option]` I get so far but then I get the following error `An app with that bundle ID needs to exist in order to create a provisioning profile for it` - This is because Match cannot create App IDs on the member center, you'll have to do that manually.
-2. I'm having an authention issue when attempting to clone the certificates repo. - Make sure you are authenticated to communicate with Github through ssh (try doing a `git pull` in one of your projects) also make sure you provide Fastlane with the `.git` ssh url when asked.
+- When running the command `fastlane match [option]` I get so far but then I get the following error `An app with that bundle ID needs to exist in order to create a provisioning profile for it` - This is because Match cannot create App IDs on the member center, you'll have to do that manually.
+- I'm having an authention issue when attempting to clone the certificates repo. - Make sure you are authenticated to communicate with Github through ssh (try doing a `git pull` in one of your projects) also make sure you provide Fastlane with the `.git` ssh url when asked.
 
