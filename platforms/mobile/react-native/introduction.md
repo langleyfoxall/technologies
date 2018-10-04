@@ -30,6 +30,10 @@ An open source toolchain called [Expo](https://expo.io) has also been developed 
 
 Both Pure React Native and Expo applications can be built mostly like a regular ReactJS Application and most Node Modules will be compatible. A notable exception to this is Routing and Navigation. [See recommended packages](#recommended packages).
 
+## Getting Started
+* [React Native Quick Start](react-native-quick-start.md)
+* [Expo Quick Start](expo-quick-start.md)
+
 ## Which should I use? ##
 
 Below is be listed the recommended prerequisite knowledge for each platform as well as the advantages and disadvantages. Use cases where Expo cannot be used will also be listed below.
