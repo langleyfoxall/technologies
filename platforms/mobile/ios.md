@@ -1,6 +1,6 @@
 # Langley Foxall iOS
 
-iOS is a big part of the company and it's what got us started. We write our iOS apps in purely Swift.
+iOS is a big part of the company and it's what got us started. The general rule of thumb for iOS development is to use Swift to write your apps as it's something that can easily be picked up by other members of the team & is the flagship language of Apple, more niche tasks or projects might require a dip into Objective-C or even C++ but this isn't the case for most projects.
 
 Because Swift is a reletively new language and that iOS itself changes every year, ensuring we have an up to date guide full of good-to-knows & best practices is the key to ensuring we stay on top of iOS.
 
