@@ -12,3 +12,6 @@ The following style guides are currently outlined:
   - [Core](javascript/core.md)
 - PHP
   - [Core](php/core.md)
+  - [Laravel](php/laravel.md)
+- REST Api
+  - [Core](rest-api/core.md)  
