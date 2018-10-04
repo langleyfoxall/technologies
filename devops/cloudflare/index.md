@@ -30,6 +30,11 @@ block particular IP addresses or regions, and to improve general request perform
 * [Speed](speed.md) - Overview of the Speed page and general performance improvements.
 * [Caching](caching.md) - Overview of the Caching page and the purging of assets.
 
+## Notes
+
+* CloudFlare has a limit of 100MB for an upload, per request, on the Free plan.
+* Enabling the Rocket Loader can potentially break the JavaScript functionality across the site or on certain pages.
+
 ## Useful Links
 
 * [CloudFlare](https://www.cloudflare.com)

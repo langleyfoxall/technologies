@@ -30,13 +30,13 @@ running a large site and are experiencing high bandwidth costs on S3. It reduces
 using that image when processing requests instead of always requesting the same file from your S3 bucket.
 
 1. Create a new CNAME record using your S3 bucket name. Please ensure you do not use anything other than your S3 bucket name since this
-is a AWS requirement.
+is an AWS requirement.
 ![DNS tab](images/dns-management/add-s3-bucket.png "DNS tab")
 
 2. You can now update your frameworks configuration to use the new DNS record we created. For this example we will use Laravel and
 update the `.env` file to include the following.
 
-`AWS_URL=files.example.com.s3.amazonaws.com`
+`AWS_URL=files.example.com`
 
 You will still need to set up CORS on the bucket and potentially enable SSL, you can read more 
 [here](https://support.cloudflare.com/hc/en-us/articles/200168926-How-do-I-use-Cloudflare-with-Amazon-s-S3-Service).
