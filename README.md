@@ -12,6 +12,7 @@ We work with a number of different software platforms. Each has their own set of
 * 📱 Mobile
   * [🍎 iOS apps](platforms/mobile/ios.md)
   * [🤖 Android apps](platforms/mobile/android.md)
+  * [📲 React Native](platforms/mobile/react-native/introduction.md)
 * 🖥 Desktop
   * [🖼 Windows apps](platforms/desktop/windows.md)
 * 🛠 [DevOps](devops/devops.md)
