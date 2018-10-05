@@ -2,3 +2,7 @@ theme: jekyll-theme-minimal
 title: Langley Foxall Technologies
 logo: https://raw.githubusercontent.com/langleyfoxall/technologies/master/assets/images/langley-foxall-logo.png
 show_downloads: false
+breadcrumbs:
+  root:
+    hide: false  # show breadcrumbs on root/home page
+    image: false # Show image or title text
