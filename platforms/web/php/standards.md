@@ -43,7 +43,6 @@ Discussions will be had every other Friday at close of play to discuss/vote on w
 Variable names MUST be defined in camelCase
 
 #### Methods
-Opening braces for methods MUST be on the same line as the declaration, and closing braces MUST go on the next line after the body.
 
 Chained methods MUST be on new lines, and be indented with one tab, as follows:
 
