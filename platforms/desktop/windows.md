@@ -3,10 +3,14 @@
 Whilst our windows application development is slightly more rare than the other platforms, we still have a set standard 
 of development, built by our in-house specialists.
 
+As a preference, our Windows applications are developed using C#.
+
 ### Universal Windows Platform (UWP)
 
 The Universal Windows Platform is our windows platform of choice, allowing you to develop and build once for Desktop, 
 Mobile, Xbox, Hololens and more.
+
+We work mainly with C# for our logic layer, and build our views using XAML.
 
 #### Things you should know
 
