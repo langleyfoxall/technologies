@@ -12,7 +12,7 @@ change, dependant on that languages standards.
 Code should be [Self Documenting](https://en.wikipedia.org/wiki/Self-documenting_code), to the level that people should 
 be able to read it without much hassle.
 
-You may find that sometimes functions/methods can be highly mathmatical or complex, in which case it can still be hard 
+You may find that sometimes functions/methods can be highly mathematical or complex, in which case it can still be hard 
 to follow, even with good variable and function names. This is when comments should be appropriately used to document 
 code.
 
