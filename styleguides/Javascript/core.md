@@ -2340,12 +2340,12 @@ We make use of [ESLint](https://eslint.org/) across the board for our JS project
 
   <a name="whitespace--spaces"></a><a name="18.1"></a>
 
-- [19.1](#whitespace--spaces) Use soft tabs (space character) set to 2 spaces. eslint: [`indent`](https://eslint.org/docs/rules/indent.html)
+- [19.1](#whitespace--spaces) Use soft tabs (space character) set to 4 spaces. eslint: [`indent`](https://eslint.org/docs/rules/indent.html)
 
   ```javascript
   // bad
   function foo() {
-  ∙∙∙∙let name;
+  ∙∙let name;
   }
   
   // bad
@@ -2355,7 +2355,7 @@ We make use of [ESLint](https://eslint.org/) across the board for our JS project
   
   // good
   function baz() {
-  ∙∙let name;
+  ∙∙∙∙let name;
   }
   ```
 
