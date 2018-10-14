@@ -21,7 +21,7 @@ Repeat the below steps for the following commands based on your needs.
 - `fastlane match adhoc` for production certifcates & adhoc profiles
 - `fastlane match development` for development certificates & profiles
 
-- Ensure you have Fastlane installed globally (Look at `core.md` for more Fastlane details)
+- Ensure you have Fastlane installed globally (Look at [`core.md`](core.md) for more Fastlane details)
 - You will be asked to enter the URL to the Git repo containing the certifcates, talk to your project manager to get the URL (Make sure this is the ssh url)
 - Match will then attempt to clone the Git repo (you might hit some issues here, see the troubleshooting section at the bottom)
 - After that you'll be promoted to enter the encryption key, ask your project manager for this key

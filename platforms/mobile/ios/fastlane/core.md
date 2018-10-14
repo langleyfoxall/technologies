@@ -13,7 +13,7 @@ Deploying iOS apps is a confusing and long process, from managing certificates t
 At Langley Foxall we use Fastlane & it's various tools to do the following
 
 - Manage our development & production certificates 
-- Manage our provisoning profiles for both development and production (look at `match.md` for more information)
+- Manage our provisoning profiles for both development and production (look at [`match.md`](match.md) for more information)
 - Automatically take screenshots of the app for the app store.
 - Upload metadata such as the app name and test credentials checked in the repo to the app store
 - Automate the build and upload process, carried out through `lanes`
