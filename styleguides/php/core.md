@@ -3,16 +3,12 @@
     *   [PHP](#php)
         *   [PSR-1](#php)   
         *   [PSR-2](#php)   
-    *   [Laravel](#laravel)
-    *   [RESTful API's](#restful-apis)
 *   [Amendments](#amendments)
     *   [Variables](#variables)
     *   [Methods](#methods)
 *   [Adhering to standards](#adhering-to-standards)
     *   [PhpStorm + PHP Code Sniffer](#phpstorm--php-code-sniffer)
     *   [PhpStorm + PHP-CS-Fixer](#phpstorm--php-cs-fixer)
-
-
 
 ### Introduction
 Our goal isn’t to rewrite the unspoken rules of languages - and most of what we’re looking for is defined in the relevant documentation. 
@@ -23,14 +19,6 @@ The below documentation links should be followed unless defined otherwise in thi
 
    * [PSR-1](https://www.php-fig.org/psr/psr-1/)
    * [PSR-2](https://www.php-fig.org/psr/psr-2/)
-   
-#### Laravel
-
-   * [Laravel Documentation](https://laravel.com/docs/)
-
-#### RESTful API's
-
-   * [Best Practices for a pragmatic RESTful API](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
 
 With how we work being heavily framework based - these frameworks (especially Laravel) offer a TON of stuff to stop us from making messy code. A lot of the time this stuff will not be obvious unless you’re looking for it, so looking through the documentation top to bottom should be homework for everyone’s first encounter with the framework (If you haven’t done this, please do).
 
