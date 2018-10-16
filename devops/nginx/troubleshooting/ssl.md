@@ -2,12 +2,13 @@
 
 ### Enabling support for older devices & browsers
 
-You can enable supprot for older devices & browsers by updating `ssl_protocols` and `ssl_ciphers`. `ssl_protocols` define the TLS versions the web server should allow and `ssl_ciphers` defines the supported ciphers. 
+You can enable support for older devices & browsers by updating `ssl_prefer_server_ciphers`, `ssl_protocols` and `ssl_ciphers`. `ssl_prefer_server_ciphers` tells the web server to prefer server ciphers instead of client ciphers. `ssl_protocols` define the TLS versions the web server should allow and `ssl_ciphers` defines the supported ciphers. 
 
 When you first setup a site through Laravel Forge and enable the Let's Encrypt certificate the default protocols and ciphers are the following.
 
 ```
     ssl_protocols TLSv1.2;
+    ssl_prefer_server_ciphers on;
     ssl_ciphers ECDHE-RSA-AES256-GCM-SHA512:DHE-RSA-AES256-GCM-SHA512:ECDHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-SHA384;
 ```
 
@@ -17,6 +18,7 @@ If you wish to support older devices (but weaken security in the process) then t
 
 ```
 ssl_protocols TLSv1.1 TLSv1.2;
+ssl_prefer_server_ciphers on;
 ssl_ciphers "EECDH+AESGCM:EDH+AESGCM:AES256+EECDH:AES256+EDH:ECDHE-RSA-AES128-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES128-GCM-SHA128:DHE-RSA-AES128-GCM-SHA384:DHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES128-GCM-SHA128:ECDHE-RSA-AES128-SHA384:ECDHE-RSA-AES128-SHA128:ECDHE-RSA-AES128-SHA:ECDHE-RSA-AES128-SHA:DHE-RSA-AES128-SHA128:DHE-RSA-AES128-SHA128:DHE-RSA-AES128-SHA:DHE-RSA-AES128-SHA:ECDHE-RSA-DES-CBC3-SHA:EDH-RSA-DES-CBC3-SHA:AES128-GCM-SHA384:AES128-GCM-SHA128:AES128-SHA128:AES128-SHA128:AES128-SHA:AES128-SHA:DES-CBC3-SHA:HIGH:!aNULL:!eNULL:!EXPORT:!DES:!MD5:!PSK:!RC4";
 ```
 
