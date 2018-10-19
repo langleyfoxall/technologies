@@ -11,6 +11,6 @@
 
 ### Sources
 <!-- Provide sources of information people can use to research this topic. -->
-<!-- Please try not to be bias towards you point of view and provide counterarguments, if possible. -->
+<!-- Please try not to be bias towards your point of view and provide counterarguments, if possible. -->
 
 * [Langley Foxall](https://langleyfoxall.co.uk) - The Langley Foxall website
