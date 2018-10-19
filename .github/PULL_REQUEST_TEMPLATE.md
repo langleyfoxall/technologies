@@ -13,4 +13,4 @@
 <!--- Go over all the following points, and put an `x` in all the boxes that apply. -->
 <!--- If you're unsure about any of these, don't hesitate to ask. We're here to help! -->
 - [ ] I have ensured that I have used relative links where appropriate.
-- [ ] I have proofread my sentences.
+- [ ] I have proofread my documentation.

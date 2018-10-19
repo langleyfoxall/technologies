@@ -9,6 +9,9 @@
 <!-- Please make sure you use markdown code blocks with the relevant language -->
 <!-- https://help.github.com/articles/creating-and-highlighting-code-blocks -->
 
+### Checklist
+- [ ] I have checked that this is not a duplicate issue.
+
 ### Sources
 <!-- Provide sources of information people can use to research this topic. -->
 <!-- Please try not to be bias towards your point of view and provide counterarguments, if possible. -->
