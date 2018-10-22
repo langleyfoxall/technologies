@@ -2,6 +2,8 @@
 
 ### Enabling support for older devices & browsers
 
+> While you have the option to low security in order to support legacy devices and browsers, it is not recommended to lower the ciphers and TLS version as this leaves you can leave you extremely vulnerable to security flaws. TLSv1.1 is recommended minimum.
+
 You can enable support for older devices & browsers by updating `ssl_prefer_server_ciphers`, `ssl_protocols` and `ssl_ciphers`. `ssl_prefer_server_ciphers` tells the web server to prefer server ciphers instead of client ciphers. `ssl_protocols` define the TLS versions the web server should allow and `ssl_ciphers` defines the supported ciphers. 
 
 When you first setup a site through Laravel Forge and enable the Let's Encrypt certificate the default protocols and ciphers are the following.
