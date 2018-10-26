@@ -21,7 +21,6 @@ This area of testing is large end to end testing, This means that in terms of te
 ### Testing Status
 
 For Stage 2 and Stage 3 Lists of tests completed for each test is required, with each test you will need a Status. The Status are as follows:
-Markup :
 *Passed – The testing passed and has been confirmed to work as expected.
 	*Data Required 
 		*Notes.
