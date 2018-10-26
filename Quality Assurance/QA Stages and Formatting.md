@@ -21,31 +21,32 @@ This area of testing is large end to end testing, This means that in terms of te
 ### Testing Status
 
 For Stage 2 and Stage 3 Lists of tests completed for each test is required, with each test you will need a Status. The Status are as follows:
-•	Passed – The testing passed and has been confirmed to work as expected.
-o	Data Required 
-	Notes.
-	Test data used.
-	 Screenshots if relevant.
-	Your Name.
-•	Failed – The testing failed and is not working as expected.
-o	Data Required
-	Notes.
-	Test Data used.
-	Bug Number Raised.
-	Your Name.
-•	Blocked – Testing has not been started as can’t be tested due to a Bug Already Raised by a failed test.
-o	Data Required
-	Notes
-	Bug Number Raised
-	Your Name.
-•	OOS (Out of Scope) – Test has been moved to OOS as it is not in the scope of testing for this Stage of Testing.
-o	Data Required
-	Manager who confirmed OOS
-	Your Name.
+Markup :
+*Passed – The testing passed and has been confirmed to work as expected.
+	*Data Required 
+		*Notes.
+		*Test data used.
+		*Screenshots if relevant.
+		*Your Name.
+*Failed – The testing failed and is not working as expected.
+	*Data Required
+		*Notes.
+		*Test Data used.
+		*Bug Number Raised.
+		*Your Name.
+*Blocked – Testing has not been started as can’t be tested due to a Bug Already Raised by a failed test.
+	*Data Required
+		*Notes
+		*Bug Number Raised
+		*Your Name.
+*OOS (Out of Scope) – Test has been moved to OOS as it is not in the scope of testing for this Stage of Testing.
+	*Data Required
+		*Manager who confirmed OOS
+		*Your Name.
 
 ### Raising A Bug
 
 When you find a bug, you will need to raise a bug on the Jira Service Desk.
 This bug will require multiple areas to be filled in, these are as Below:
 
-![Jira Bug Raising](images/jira/raising-bugs.png)
+![Jira Bug Raising](images/jira/raising-bugs.PNG)
