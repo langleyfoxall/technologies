@@ -35,12 +35,12 @@ For Stage 2 and Stage 3 Lists of tests completed for each test is required, with
 		- Your Name.
 - Blocked – Testing has not been started as can’t be tested due to a Bug Already Raised by a failed test.
 	- Data Required
-		- Notes
-		- Bug Number Raised
+		- Notes.
+		- Bug Number Raised.
 		- Your Name.
 - OOS (Out of Scope) – Test has been moved to OOS as it is not in the scope of testing for this Stage of Testing.
 	- Data Required
-		- Manager who confirmed OOS
+		- Manager who confirmed OOS.
 		- Your Name.
 
 ### Raising A Bug
