@@ -6,7 +6,7 @@ Open source software and open standards are critical components of modern web ap
 We believe relying upon open standards and software has been fundamental to the success of the software industry as a whole. To aid in this, Langley Foxall is committed to giving back to the community. We try to contribute useful open source software, libraries, and other tools wherever possible. These packages are often used internally or as a part of our bespoke software solutions.
 
 In fact, the page you are reading right now is part of just one of these open source projects.
-internal purposes to the open source community.
+## Our Open Source Projects
 
 We love contributions and want our packages to help people, so if you have suggestions for improvements, please file
 an issue on the relevant repository.
