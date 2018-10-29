@@ -1,5 +1,11 @@
 # 📖 Langley Foxall Open Source
-We've recently began delving into the open source world as a company, by opening up some of the tools developed for
+## Background
+
+Open source software and open standards are critical components of modern web applications and the software industry as a whole. This includes components of the web browsers, web servers, and operating systems used by millions daily.
+
+We believe relying upon open standards and software has been fundamental to the success of the software industry as a whole. To aid in this, Langley Foxall is committed to giving back to the community. We try to contribute useful open source software, libraries, and other tools wherever possible. These packages are often used internally or as a part of our bespoke software solutions.
+
+In fact, the page you are reading right now is part of just one of these open source projects.
 internal purposes to the open source community.
 
 We love contributions and want our packages to help people, so if you have suggestions for improvements, please file
