@@ -12,14 +12,14 @@ We love contributions and want our packages to help people, so if you have sugge
 an issue on the relevant repository.
 
 ##### Laravel
-* [xero-laravel](https://github.com/langleyfoxall/xero-laravel) - An Eloquent-esque interface for the Xero PHP Wrapper
-* [modules-laravel](https://github.com/langleyfoxall/modules-laravel) - A package for building modular Laravel applications
-* [helpers-laravel](https://github.com/langleyfoxall/helpers-laravel) - A useful set of helper functions for use in Laravel
-* [laravel-boilerplate](https://github.com/langleyfoxall/laravel-boilerplate) - A prepared Laravel project that has 
+* [Laravel Xero](https://github.com/langleyfoxall/xero-laravel) - An Eloquent-esque interface for the Xero PHP Wrapper
+* [Laravel Modules](https://github.com/langleyfoxall/modules-laravel) - A package for building modular Laravel applications
+* [Laravel Helpers](https://github.com/langleyfoxall/helpers-laravel) - A useful set of helper functions for use in Laravel
+* [Laravel Boilerplate](https://github.com/langleyfoxall/laravel-boilerplate) - A prepared Laravel project that has 
 common setup/packages included
 
 ##### React
-* [react-dynamic-data-table](https://github.com/langleyfoxall/react-dynamic-data-table) - A react table component that supports sortable columns, pagination, field mapping, data 
+* [React Dynamic Data Table](https://github.com/langleyfoxall/react-dynamic-data-table) - A react table component that supports sortable columns, pagination, field mapping, data 
 manipulation, and more.
 
 ##### Swift
