@@ -18,4 +18,4 @@ We work with a number of different software platforms. Each has their own set of
   * [🖼 Windows apps](platforms/desktop/windows.md)
 * 🛠 [DevOps](devops/devops.md)
 * 🔢 [Style Guides](styleguides/styleguides.md)
-* [Continuous Integration](continuous-integration/index.md)
+* 👮 [Continuous Integration](continuous-integration/index.md)
