@@ -15,7 +15,8 @@ an issue on the relevant repository.
 * [xero-laravel - An Eloquent-esque interface for the Xero PHP Wrapper](https://github.com/langleyfoxall/xero-laravel)
 * [modules-laravel - A package for building modular Laravel applications](https://github.com/langleyfoxall/modules-laravel)
 * [helpers-laravel - A useful set of helper functions for use in Laravel](https://github.com/langleyfoxall/helpers-laravel)
-* [laravel-boilerplate - A prepared Laravel project that has common setup/packages included]()
+* [laravel-boilerplate - A prepared Laravel project that has common setup/packages 
+included](https://github.com/langleyfoxall/laravel-boilerplate)
 
 ##### React
 * [react-dynamic-data-table - A react table component that supports sortable columns, pagination, field mapping, data 
