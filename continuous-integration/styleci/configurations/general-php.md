@@ -2,11 +2,13 @@
 
 The following is a recommended configuration for general PHP projects which may or may not use a framework. If you are
 using Laravel please use the alternative configuration [here](laravel.md). This configuration uses the `psr2` 
-preset with risky heuristics disabled. It is also tailored to suit our internal PHP & JavaScript guidelines.
+preset with risky heuristics enabled. It is also tailored to suit our internal PHP & JavaScript guidelines.
 
 ```yaml
 php:
   preset: psr2
+  
+  risky: true
 
   enabled:
     - concat_with_spaces
