@@ -12,15 +12,15 @@ We love contributions and want our packages to help people, so if you have sugge
 an issue on the relevant repository.
 
 ##### Laravel
-* [xero-laravel - An Eloquent-esque interface for the Xero PHP Wrapper](https://github.com/langleyfoxall/xero-laravel)
-* [modules-laravel - A package for building modular Laravel applications](https://github.com/langleyfoxall/modules-laravel)
-* [helpers-laravel - A useful set of helper functions for use in Laravel](https://github.com/langleyfoxall/helpers-laravel)
-* [laravel-boilerplate - A prepared Laravel project that has common setup/packages 
-included](https://github.com/langleyfoxall/laravel-boilerplate)
+* [xero-laravel](https://github.com/langleyfoxall/xero-laravel) - An Eloquent-esque interface for the Xero PHP Wrapper
+* [modules-laravel](https://github.com/langleyfoxall/modules-laravel) - A package for building modular Laravel applications
+* [helpers-laravel](https://github.com/langleyfoxall/helpers-laravel) - A useful set of helper functions for use in Laravel
+* [laravel-boilerplate](https://github.com/langleyfoxall/laravel-boilerplate) - A prepared Laravel project that has 
+common setup/packages included
 
 ##### React
-* [react-dynamic-data-table - A react table component that supports sortable columns, pagination, field mapping, data 
-manipulation, and more.](https://github.com/langleyfoxall/react-dynamic-data-table)
+* [react-dynamic-data-table](https://github.com/langleyfoxall/react-dynamic-data-table) - A react table component that supports sortable columns, pagination, field mapping, data 
+manipulation, and more.
 
 ##### Swift
 * Formation - A form builder for Swift applications *COMING SOON*
