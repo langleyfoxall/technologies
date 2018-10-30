@@ -15,6 +15,7 @@ file name.
 * [Laravel](configurations/laravel.md)
 * [General PHP](configurations/general-php.md)
 
-## Documentation
+## Useful Links
 
+* [StyleCI Website](https://styleci.io)
 * [StyleCI Documentation](https://styleci.readme.io/docs/getting-started)
