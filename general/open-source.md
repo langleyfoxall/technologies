@@ -11,12 +11,18 @@ In fact, the page you are reading right now is part of just one of these open so
 We love contributions and want our packages to help people, so if you have suggestions for improvements, please file
 an issue on the relevant repository.
 
+##### PHP
+* [PHP Mathematical Equation Evaluator](https://github.com/langleyfoxall/math_eval) - An evaluator that returns the 
+result of a mathematical equation string.
+
 ##### Laravel
-* [Laravel Xero](https://github.com/langleyfoxall/xero-laravel) - An Eloquent-esque interface for the Xero PHP Wrapper
+* [💸 Laravel Xero](https://github.com/langleyfoxall/xero-laravel) - An Eloquent-esque interface for the Xero PHP Wrapper
 * [Laravel Modules](https://github.com/langleyfoxall/modules-laravel) - A package for building modular Laravel applications
 * [Laravel Helpers](https://github.com/langleyfoxall/helpers-laravel) - A useful set of helper functions for use in Laravel
 * [Laravel Boilerplate](https://github.com/langleyfoxall/laravel-boilerplate) - A prepared Laravel project that has 
 common setup/packages included
+* [🔒 Laravel NIST Password Rules](https://github.com/langleyfoxall/laravel-nist-password-rules) - A set of validation 
+rules to ensure passwords adhere to a common security standard.
 
 ##### React
 * [React Dynamic Data Table](https://github.com/langleyfoxall/react-dynamic-data-table) - A react table component that supports sortable columns, pagination, field mapping, data 
