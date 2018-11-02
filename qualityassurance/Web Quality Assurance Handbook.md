@@ -8,7 +8,8 @@ It should be used as a guide to ensure a great & consistent experience for the e
 
 
 ### Blackbox
-General
+
+#### General
 -  All UI scales well and looks good on small form factor devices
 -  All errors are handled and UI reacts appropriately
 -  Errors are clear in meaning & reflect what happened
@@ -82,7 +83,6 @@ General
 
 
 ### Whitebox
-
 
 #### General
 -  Filenames must follow standard coding conventions (UsersController.php)
