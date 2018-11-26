@@ -143,9 +143,9 @@ appropriate (clientCard, navbar etc)
 
 ## Processes
 ### Automated Testing
-#### Browser Testing
 #### Unit Testing
 #### Integration Testing
+#### Browser Testing
 
 ### Manual Testing
 #### Stages of Testing
@@ -154,19 +154,22 @@ This stage is for the Developers to test and ensure that there are not obvious b
 expected before they create a PR (Pull Request), This will ensure that QA is not wasting time on obvious bugs that 
 could have easily been spotted during development and be fix them before the PR.
 
-This should happen before the commit to ensure that none of the above points are infringed.
+This should happen before the PR to ensure that none of the above points are infringed. If a developer finds a bug, it 
+should get reported into JIRA before being fixed. This is to build up the developer's KPI's - showing that they are 
+finding a higher ratio of bugs than QA.
 
 ##### 2 - Sprint Testing
-At this stage the PR has been created and this requires 2 steps of acceptance.
-One check will be from a member of the Developer Team to check over the code is to review the code itself. 
-The other Check will be from QA, that will test the code changes itself, ensure that it is working and there are not 
-bugs in the relevant area. This is more of a Spotlight Check, testing around each change that has been made and near 
-areas that could be affected by this change, this will have a high density of testing to ensure that we catch as many
-bugs as possible, no matter how small or unlikely the bug appears all bugs must be reported.
-Once Both parties have accepted the code we will then go onto Stage 3
+At the end of each sprint a member of QA team will look to test the code that is pushed to the `master` branch. 
+This is to ensure that it is working and there are not bugs in the relevant area. 
 
-##### 3 - M2S (Master to Staging) Testing
-This area of testing is large end to end testing, This means that in terms of testing, we start of as a brand new 
+This is more of a Spotlight Check, testing around each change that has been made and near areas that could be 
+affected by this change, this will have a high density of testing to ensure that we catch as many bugs as possible, 
+no matter how small or unlikely the bug appears all bugs must be reported and fixed before the code goes to `staging`.
+
+QA should look to test all assumptions that were marked as completed in that sprint by the developers. 
+
+##### 3 - M2P (Production) Testing
+Finally, M2P testing is large end to end tests. This means that in terms of testing, we start of as a brand new 
 user, with a cleared database (as much as can be cleared), This testing will go through the flows the customer will 
 follow, This will require multiple user type testing such as (Client, Admin, User, Engineer, Ect..), This will span 
 through to an App if the customer has an App, Even if no changes have been made to the App. This will ensure that the
