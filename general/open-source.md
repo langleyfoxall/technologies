@@ -14,7 +14,7 @@ an issue on the relevant repository.
 
 ## Creating Open Source Projects
 
-When creating open source software, we're aware that these projects can be used in systems that other developers build & rely on, because of this, we have rigid requirements for our oss which prevent breaking changes from being introduced into stable versions of the public projects we release.
+When creating open source software, we're aware that these projects can be used in systems that other developers build & rely on, because of this, we have rigid requirements for our OSS which help mitigate breaking changes from being introduced into stable versions of the public projects we release.
 
 When a project reaches `v1.0.0` we have the following safe guards in place:
 
