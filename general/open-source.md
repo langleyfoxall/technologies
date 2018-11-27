@@ -20,7 +20,7 @@ When a project reaches `v1.0.0` we have the following safe guards in place:
 
 - When a project reaches `v1.0.0`, we stricly follow semantic versioning to ensure updates don't break existing implementations or expected functionality.
 - A comprehensive test suite designed to ensure new code introduced doesn't break existing functionality and in turn, other developer's code.
-- Travis CI ensures all code changes don't break existing functionality by automatically running the test suite on changes & enforces our internal styleguides to keep the project consistent and maintainable.
+- Travis CI ensures code changes don't break existing functionality by automatically running the test suite when code is changed, and StyleCI enforces our internal style guides to keep the project consistent and maintainable.
 - The project is documented, so it's easy to use.
 
 The above can't be guarenteed when using a version below `v1.0.0` as these will still be in development and subject to change.
