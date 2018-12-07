@@ -132,7 +132,7 @@ Good:
 ```css
 .button.button-danger {
     background-color: red;
-    text-shadow:      0 2px 4px #ff0;
+    text-shadow:      0 2px 4px #FFFF00;
     color:            rgba(0, 0, 0, 1); // rgb(0, 0, 0)
 }
 ```
