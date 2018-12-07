@@ -115,12 +115,12 @@ Good:
 }
 ```
 
-##### Colors should be readable
+##### Colours should be readable
 
-- Named colors should be lowercase
-- Hex codes should be full length
-- Hex codes should be uppercase
-- RGB/RGBA colors should have spaces between parameters
+- Named colours should be lowercase.
+- Hex colours should be full length.
+- Hex colours should be uppercase.
+- RGB/RGBA colours should have spaces between parameters.
 
 Bad:
 
