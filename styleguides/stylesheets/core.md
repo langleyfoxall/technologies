@@ -137,7 +137,7 @@ Good:
 }
 ```
 
-##### [Conbinators][css-conbinators] should have spaces around them
+##### [Combinators][css-combinators] should have spaces around them
 
 Bad:
 
@@ -348,7 +348,7 @@ Good:
 
 
 [kebab-case]: https://stackoverflow.com/a/12273101/8176262
-[css-conbinators]: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors#Combinators
+[css-combinators]: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors#Combinators
 [margin-shorthand]: https://developer.mozilla.org/en-US/docs/Web/CSS/margin#More_examples
 [scss-variables]: https://sass-lang.com/guide#topic-2
 [less-variables]: http://lesscss.org/#variables
