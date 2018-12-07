@@ -76,7 +76,7 @@ Good:
 Bad:
 
 ```css
-.button.button_danger {
+.button.button-danger {
     background-color: red;
     text-transform:   capitalize;
     transition:       background-color ease-in-out 150ms, color ease-in-out 150ms;
