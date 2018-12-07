@@ -312,6 +312,22 @@ $button-background-color: $global-background-color;
 
 ```
 
+##### Variables should be [kebab-case][kebab-case]
+
+Bad:
+
+```scss
+$multipleWords: red;
+```
+
+Good:
+
+```scss
+$multiple-words: red;
+```
+
+<small><i>Note: This reason for this is to match CSS properties, such as `background-color` or `ease-in-out`.</i></small>
+
 ##### Variables should go into their own file
 
 Bad:
