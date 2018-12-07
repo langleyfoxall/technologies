@@ -117,11 +117,16 @@ Good:
 
 ##### Colors should be readable
 
+- Named colors should be lowercase
+- Hex codes should be full length
+- Hex codes should be uppercase
+- RGB/RGBA colors should have spaces between parameters
+
 Bad:
 
 ```css
 .button.button-danger {
-    background-color: red;
+    background-color: RED;
     text-shadow:      0 2px 4px #ff0;
     color:            rgba(0,0,0,1); // rgb(0,0,0)
 }
