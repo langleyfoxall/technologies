@@ -71,7 +71,7 @@ Good:
 }
 ```
 
-##### Multi-property values should go below the property
+##### Multi-value properties should go below the property
 
 Bad:
 
@@ -79,7 +79,7 @@ Bad:
 .button.button_danger {
     background-color: red;
     text-transform:   capitalize;
-    transition:       background ease-in-out 150ms, color ease-in-out 150ms;
+    transition:       background-color ease-in-out 150ms, color ease-in-out 150ms;
 }
 ```
 
@@ -90,7 +90,7 @@ Good:
     background-color: red;
     text-transform:   capitalize;
     transition:
-        background ease-in-out 150ms,
+        background-color ease-in-out 150ms,
         color ease-in-out 150ms;
 }
 ```
