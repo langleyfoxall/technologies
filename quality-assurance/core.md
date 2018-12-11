@@ -82,7 +82,7 @@ assurance phase.
 
 ### Whitebox
 **General**
-* Filenames must follow standard coding conventions (UsersController.php)
+* Filenames must follow standard coding conventions (UserController.php)
 * Classes must follow standard coding conventions (UserController)
 * Variables should follow camelCase &amp; be descriptive (myName)
 * All long running operations (at your discretion) are queued
