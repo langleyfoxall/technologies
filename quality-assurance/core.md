@@ -29,7 +29,7 @@ assurance phase.
 
 **Navbar**
 * UI reflects the current active page
-* Icon is appropriate for the page
+* An icon that is appropriate for the page (if applicable)
 
 **Forms**
 * Invalid inputs correctly trigger validation errors
