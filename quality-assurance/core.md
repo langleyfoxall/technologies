@@ -145,12 +145,28 @@ appropriate (clientCard, navbar etc)
 
 ## Processes
 ### Automated Testing
+
+Automated testing should be implemented in a way to confirm functionality specified by the client.
+To this end, automated tests should be created to confirm the project user stories and related 
+business logic is satisfied and correct. 
+
 #### Unit Testing
-Unit tests are to be utilised more so in our packages than in full products.
-#### Integration Testing
-Integration tests are to be utilised more so in our full projects than in our packages.
-#### Browser Testing
-TBC
+
+Our current policy is that unit tests should be used for:
+
+* Testing of project business logic / rules, that are able to be sufficient abstracted
+* Testing of packages, including our open source work
+
+#### Integration, Browser & End-to-End Testing
+
+Integration, browser and end-to-end tests should be used for:
+
+* Testing of project functionality related to client specified user stories
+* Testing of critical path functionality, such as the register, login, and checkout process of an
+ecommerce site
+
+Since end-to-end tests are slower than browser tests and browser tests are slower than integration 
+tests, you should ideally aim to use the fastest possible test type, if appropriate.
 
 ### Manual Testing
 #### 1 - Developer Testing
