@@ -165,7 +165,6 @@ ecommerce site
 
 Since end-to-end tests are slower than browser tests and browser tests are slower than integration 
 tests, you should ideally aim to use the fastest possible test type, if appropriate.
-e
 ### Manual Testing
 #### 1 - Developer Testing
 During the development of the project, developers will create `feature/*` branches for all features going into the software.
