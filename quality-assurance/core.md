@@ -15,7 +15,7 @@ automated testing.
 
 ## What makes a good web application?
 The following is a checklist of things to think about both during development of a product and during the quality 
-assurance phase.
+assurance phase. They should be considered guidelines, and not a strict set of requirements, as not all points will be applicable or appropriate for all applications.
 
 ### Blackbox
 **General**
