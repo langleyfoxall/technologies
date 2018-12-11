@@ -57,7 +57,7 @@ assurance phase.
 **Login &amp; Auth**
 * User can only access pages that require 
 * Authentication when they are logged in
-* Login &amp; Logout works as expected
+* Login, registration (if applicable) and logout works as expected.
 * Reset password works as expected
 
 **Registration**
