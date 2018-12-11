@@ -55,7 +55,7 @@ assurance phase.
 * UI shows at least 2 page tabs ahead and below the current page
 
 **Login &amp; Auth**
-* User can only access pages that require 
+* Users can only access pages they are permitted access to.
 * Authentication when they are logged in
 * Login, registration (if applicable) and logout works as expected.
 * Reset password works as expected
