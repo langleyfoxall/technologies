@@ -100,7 +100,6 @@ project and make sure "Display value in build log" is not checked.
 * Log viewers are hidden behind a protected route
 
 **Controllers**
-* Ensure each controller function does not go over 250 lines
 * Be on the lookout for duplicated code - recommend refactoring into helper classes or models if so
 * Ensure all requests are validated either through a validator or custom request
 * Errors are handled correctly in try catch blocks
