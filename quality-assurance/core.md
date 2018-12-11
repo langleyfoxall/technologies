@@ -39,7 +39,7 @@ assurance phase.
 * The user is alerted of the form lifecycle (success, error)
 * When modals are used in the context of updates, ensure inputs are correctly pre populated.
 * Autofill is disabled on inputs where appropriate
-* Inputs have correct type property ( emails have email type, phone numbers have tel type)
+* Inputs have correct type property (emails have email type, phone numbers have tel type)
 
 **Modals**
 * Modals are animated on both display and dismiss
