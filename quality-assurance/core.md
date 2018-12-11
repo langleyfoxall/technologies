@@ -106,7 +106,7 @@ project and make sure "Display value in build log" is not checked.
 * Errors are handled correctly in try catch blocks
 * Responses are returned in a consistent &amp; logical format
 * Only appropriate &amp; relevant information is returned
-* When returning JSON ensure the returned JSON conforms to the JSON spec (http://json-schema.org/specification.html)
+* When returning JSON ensure the returned JSON conforms to the [JSON spec](http://json-schema.org/specification.html)
 * Appropriate status codes are set
 
 **Emails**
