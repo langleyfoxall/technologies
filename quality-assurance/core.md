@@ -6,14 +6,12 @@ assurance standards in order to consistently deliver a high quality software pro
 There are different parts/processes to quality assurance as a whole, and these are not limited to just manual testing and
 automated testing.
 
-*   [What makes a good web application?](#what-makes-a-good-web-application?)
+*   [What makes a good web application?](#what-makes-a-good-web-application)
     *   [Blackbox](#blackbox)  
     *   [Whitebox](#whitebox)  
 *   [Processes](#processes)
-    *   [Stages of Testing](#stages-of-testing)  
-        *   [Automated Testing](#automated-testing)
-        *   [Manual Testing](#manual-testing)
-    *   [Whitebox](#whitebox)  
+    *   [Automated Testing](#automated-testing)
+    *   [Manual Testing](#manual-testing)
 
 ## What makes a good web application?
 The following is a checklist of things to think about both during development of a product and during the quality 
@@ -157,7 +155,7 @@ Our current policy is that unit tests should be used for:
 * Testing of project business logic / rules, that are able to be sufficient abstracted
 * Testing of packages, including our open source work
 
-#### Integration, Browser & End-to-End Testing
+#### Integration, Browser &amp; End-to-End Testing
 
 Integration, browser and end-to-end tests should be used for:
 
@@ -167,13 +165,13 @@ ecommerce site
 
 Since end-to-end tests are slower than browser tests and browser tests are slower than integration 
 tests, you should ideally aim to use the fastest possible test type, if appropriate.
-
+e
 ### Manual Testing
 #### 1 - Developer Testing
 During the development of the project, developers will create `feature/*` branches for all features going into the software.
 After the initial feature development - the developer should manually test their feature after writing passing 
 [automation tests](#automated-testing). This phase should also include a check that ensures the feature does not infringe
-any of the items listed in the ["What makes a good web application?"](#what-makes-a-good-web-application?) section. 
+any of the items listed in the ["What makes a good web application?"](#what-makes-a-good-web-application) section. 
 
 Once the feature has the thumbs up from the developer - that is when the pull request into the `master` branch should be
 made. 
@@ -181,27 +179,16 @@ made.
 The developers should log any bugs found in this phase into JIRA to improve their ratio of bugs they find VS bugs that
 get through to the QA team/customer. 
 
-#### 2 - Sprint Testing
+#### 2 - Sprint Testing (On the master branch)
 At the end of each sprint the Lead Developer on the project should arrange some time with a member of the QA team to 
 manually test all completed user stories in that sprint.
 
-They should look to give the 
+They should look to give the functionality a complete test, using any available acceptance criteria provided with the 
+story. Testers should also ensure that the UX seems correct, that all inputs are validated correctly and data is
+retained where appropriate.
 
-OLD: 
-At the end of each sprint a member of QA team will look to test the code that is pushed to the `staging` branch. 
-This is to ensure that it is working and there are not bugs in the relevant area. 
+#### 3 - S2P Testing (Staging server) 
+Staging to production testing should be focused around the user flow of the system. 
 
-This is more of a Spotlight Check, testing around each change that has been made and near areas that could be 
-affected by this change, this will have a high density of testing to ensure that we catch as many bugs as possible, 
-no matter how small or unlikely the bug appears all bugs must be reported and fixed before the code goes to `staging`.
-
-QA should look to test all assumptions that were marked as completed in that sprint by the developers. 
-
-#### 3 - M2P (Production) Testing
---NEED TO REWORD--
-
-Finally, M2P testing is large end to end tests. This means that in terms of testing, we start of as a brand new 
-user, with a cleared database (as much as can be cleared), This testing will go through the flows the customer will 
-follow, This will require multiple user type testing such as (Client, Admin, User, Engineer, Ect..), This will span 
-through to an App if the customer has an App, Even if no changes have been made to the App. This will ensure that the
-customer flow will be clear and will be able to with confidence be able to say that this project works.
+Users should start with a fresh, clear database and work on the journey of the system end-to-end. Using the different 
+user types, the tests should ensure that the customers workflow is satisfied from input to output.
