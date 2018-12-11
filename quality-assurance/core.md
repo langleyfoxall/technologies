@@ -11,6 +11,8 @@ automated testing.
     *   [Whitebox](#whitebox)  
 *   [Processes](#processes)
     *   [Stages of Testing](#stages-of-testing)  
+        *   [Automated Testing](#automated-testing)
+        *   [Manual Testing](#manual-testing)
     *   [Whitebox](#whitebox)  
 
 ## What makes a good web application?
@@ -144,22 +146,33 @@ appropriate (clientCard, navbar etc)
 ## Processes
 ### Automated Testing
 #### Unit Testing
+Unit tests are to be utilised more so in our packages than in full products.
 #### Integration Testing
+Integration tests are to be utilised more so in our full projects than in our packages.
 #### Browser Testing
+TBC
 
 ### Manual Testing
-#### Stages of Testing
-##### 1 - Developer Testing
-This stage is for the Developers to test and ensure that there are not obvious bugs and that the code is working as 
-expected before they create a PR (Pull Request), This will ensure that QA is not wasting time on obvious bugs that 
-could have easily been spotted during development and be fix them before the PR.
+#### 1 - Developer Testing
+During the development of the project, developers will create `feature/*` branches for all features going into the software.
+After the initial feature development - the developer should manually test their feature after writing passing 
+[automation tests](#automated-testing). This phase should also include a check that ensures the feature does not infringe
+any of the items listed in the ["What makes a good web application?"](#what-makes-a-good-web-application?) section. 
 
-This should happen before the PR to ensure that none of the above points are infringed. If a developer finds a bug, it 
-should get reported into JIRA before being fixed. This is to build up the developer's KPI's - showing that they are 
-finding a higher ratio of bugs than QA.
+Once the feature has the thumbs up from the developer - that is when the pull request into the `master` branch should be
+made. 
 
-##### 2 - Sprint Testing
-At the end of each sprint a member of QA team will look to test the code that is pushed to the `master` branch. 
+The developers should log any bugs found in this phase into JIRA to improve their ratio of bugs they find VS bugs that
+get through to the QA team/customer. 
+
+#### 2 - Sprint Testing
+At the end of each sprint the Lead Developer on the project should arrange some time with a member of the QA team to 
+manually test all completed user stories in that sprint.
+
+They should look to give the 
+
+OLD: 
+At the end of each sprint a member of QA team will look to test the code that is pushed to the `staging` branch. 
 This is to ensure that it is working and there are not bugs in the relevant area. 
 
 This is more of a Spotlight Check, testing around each change that has been made and near areas that could be 
@@ -168,7 +181,9 @@ no matter how small or unlikely the bug appears all bugs must be reported and fi
 
 QA should look to test all assumptions that were marked as completed in that sprint by the developers. 
 
-##### 3 - M2P (Production) Testing
+#### 3 - M2P (Production) Testing
+--NEED TO REWORD--
+
 Finally, M2P testing is large end to end tests. This means that in terms of testing, we start of as a brand new 
 user, with a cleared database (as much as can be cleared), This testing will go through the flows the customer will 
 follow, This will require multiple user type testing such as (Client, Admin, User, Engineer, Ect..), This will span 
