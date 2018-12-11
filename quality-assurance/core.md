@@ -71,7 +71,7 @@ assurance phase.
 * Correct email is sent, information is conveyed appropriately
 * Emails are received in a timely manner
 * Emails come from the appropriate email (often the clients)
-* Links point to the correct address
+* Links point to the correct URIs
 
 **Push Notifications**
 * Push notifications are received in a timely manner
