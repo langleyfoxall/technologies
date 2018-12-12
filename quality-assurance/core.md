@@ -167,7 +167,7 @@ Since end-to-end tests are slower than browser tests and browser tests are slowe
 tests, you should ideally aim to use the fastest possible test type, if appropriate.
 ### Manual Testing
 #### 1 - Developer Testing
-During the development of the project, developers will create `feature/*` branches for all features going into the software.
+During the development of the project, developers will create branches as described in our git work flow documentation.
 After the initial feature development - the developer should manually test their feature after writing passing 
 [automation tests](#automated-testing). This phase should also include a check that ensures the feature does not infringe
 any of the items listed in the ["What makes a good web application?"](#what-makes-a-good-web-application) section. 
