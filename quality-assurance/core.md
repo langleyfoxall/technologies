@@ -87,6 +87,7 @@ assurance phase. They should be considered guidelines, and not a strict set of r
 * Variables should follow camelCase &amp; be descriptive (myName)
 * All long running operations (at your discretion) are queued
 * APIs follow REST architecture as closely as possible and implement our [API Response](https://github.com/langleyfoxall/helpers-laravel#apiresponse)
+* API responses hide sensitive information outside of what is absolutely necessary.
 * Auth middleware is setup &amp; working correctly
 * Event system is used for method side effects (Audit trail etc)
 * Laravel Notifications are used to notify the user of system events (subscription expired, new friend request etc)
