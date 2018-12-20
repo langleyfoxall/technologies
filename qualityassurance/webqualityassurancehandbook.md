@@ -1,4 +1,4 @@
-﻿# � Web Quality Assurance Handbook
+# 📗 Web Quality Assurance Handbook
 
 
 Test extensively against assumptions in Jira, at the end of the day this is what the client is paying for. Below is a list of bullet points for common individual sections of a Laravel web app, although a lot of the core concepts apply regardless of web technology used (events bus, queues etc are all common design patterns)

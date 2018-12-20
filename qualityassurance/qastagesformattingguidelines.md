@@ -1,4 +1,4 @@
-# 📚 QA Testing Stages, Formatting and GuideLines
+# ♻️ QA Testing Stages, Formatting and GuideLines
 
 This Section is to instruct on when to test, how you should be formatting the Bugs raised and GuideLines for QA
 
