@@ -172,8 +172,8 @@ After the initial feature development - the developer should manually test their
 [automation tests](#automated-testing). This phase should also include a check that ensures the feature does not infringe
 any of the items listed in the ["What makes a good web application?"](#what-makes-a-good-web-application) section. 
 
-Once the feature has the thumbs up from the developer - that is when the pull request into the `master` branch should be
-made. 
+Once the feature has the thumbs up from the developer - that is when the feature can continue through our 
+[Git Workflow](/devops/git/workflow.html)
 
 The developers should log any bugs found in this phase into JIRA to improve their ratio of bugs they find VS bugs that
 get through to the QA team/customer. 
