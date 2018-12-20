@@ -6,7 +6,8 @@ This Section is to instruct on when to test, how you should be formatting the bu
 ### Commands
 When you are developing a project, the project might require commands to run and work correctly, these can range from simple set up commands to automatic updating commands, a list of these commands and a brief description of what these commands do will help QA move more smoothly and avoid raising unnecessary questions.
 
-Some projects requires certain status or manipulation of the database to update systems and cause it to do the next stage/part of the system to test. We would like these to be formed into commands, QA should not need to touch the database side to test the system, this leads to user error and this is leading it away from how the customer would user the system. These processes need to be put into commands where it will update the database for the required data with the correct process to ensure that it is changed to how the system will change it when on live.
+Some projects require certain status or manipulation of the database to update systems and cause it to do the next stage/part of the system to test. We would like these to be formed into commands, QA should not need to touch the database side to test the system, this leads to user error. This will allow the tester to carry out complex tasks without directly modify the database or sensitive areas of the application.
+
 
 ### ENV
 Ensure that the 'env.example' is update and remove redundant fields/areas that are not required anymore.
@@ -15,26 +16,30 @@ Ensure that the 'env.example' is update and remove redundant fields/areas that a
 For staging we are following a multi stage testing to enable us to ensure that the customer is getting a bug free and fully functioning system. This will be a merge between 'Agile' and 'Waterfall'.
 										
 ### Stage 1 - Dev Testing
-This stage is for the developers to test and ensure that there are not obvious bugs and that the code is working as expected before they create a PR (Pull Request), This will ensure that QA is not wasting time on obvious bugs that could have easily been spotted during development and be fix them before the pull request is made.
+This stage is for the developers to test and ensure that there are not obvious bugs and that the code is working as expected before they create a PR (Pull Request). This will ensure that QA is not wasting time on obvious bugs that could have easily been spotted during development and be fix them before the pull request is made.
 												
 ### Stage 2 – PR (Pull Request) Testing
-At this stage the PR has been created and this requires 2 steps of acceptance.
-One check will be from a member of the developer team to check over the code is to review the code itself. 
-The other check will be from QA, that will test the code changes itself, ensure that it is working and there are not bugs in the relevant area. This is more of a spotlight check, testing around each change that has been made and near areas that could be affected by this change, this will have a high density of testing to ensure that we catch as many bugs as possible, no matter how small or unlikely the bug appears all bugs must be reported.
+At this stage the PR has been created and must adhere to the following criteria before being accepted.
+One check will be from a member of the development team to check over the code is to review the code itself. 
+The other check will be from QA, that will test the code changes itself, ensure that it is working and there are not bugs in the relevant area. This is more of a 'Spotlight Check', focused testing around each change that has been made and near areas that could be affected by this change. No matter how small an issue might seem it must be reported and signed off before continuing.
 Once both parties have accepted the code we will then go onto Stage 3.
 												
 ### Stage 3 – M2S (Master to Staging) Testing
-This area of testing is large end to end testing, This means that in terms of testing, we start of as a brand new user, with a cleared database (as much as can be cleared), This testing will go through the flows the customer will follow, This will require multiple user type testing such as (Client, Admin, User, Operative, Ect..), This will span through to an app if the customer has an app even if no changes have been made to the app. This will ensure that the customer flow will be clear and will be able to with confidence be able to say that this project works.
+This area of testing is large end to end testing. We start by creating a new user, with a cleared database (as much as can be cleared). Testing will be used as if the customer was using the system, this would include all different user types such as: client, admin, worker. If a customer has a web application, mobile application, and any other applications then this process will be repeated for each one until QA is confident to say that the applications are working as expected.
 
 ### Stage 4 - Prod Testing
 This area of testing is to test all key functionally of the application on prod to ensure that the application can function and does function as expected.
-If any issues are found on Prod these need to be raised as a 'hotfix' request and to ensure that it get fixes as soon as possible.
+If any urgent issues are found they should be raised and created as hotfixes, if they are not urgent they should go into the development branch and start the testing process again (from stage 2).
 
 #### Staging - Prod Merge Timing
-Timing is a very important point in the merge between 'Staging' and 'Prod', We do not want to do it at peak working hours as if something does go wrong it doesn't effect our customers and doesn't impact on our relationship to them. We also do not want to do it on a friday or before any period that we will not be in the office for a few days. As we want to be able to fix the issue as fast as possible and not make the customer wait. Preferably this merge would be done at night with both Q/A and dev in incase something does need fixing, But this is not possible. Every customer is different to when it would be best to merge, So ask if in doubt ask the project lead or a manager to when they will advise when its best to merge.
+Timing is a very important point in the merge between Staging and Prod.
+- We do not want to do it at peak working hours as this increases the chance of disrupting customer workflow.
+- We do not want to do it towards the end of the day as if something were to go wrong it would delay resolution times until the next morning.
+- We do not want to do it on Fridays as if something were to go wrong it would delay resolution times until the next working day.
+It is worth noting that each customer has different situations and stances on when they want their applications updating. So it is always worth confirming with the customer before hand.
 
 ## Test Cycle
-Test cycles are a collection of tests that need to be ran. Cycles should always be given a time frame and a time estimate to ensure that we are completing them in a timely manner and to enable management to work out work flows.
+Test cycles are a collection of tests that need to be ran. Cycles should always be given a time frame and a time estimate to ensure that we are completing them in a timely manner and to enable management to organize work efficiently.
 
 ### Tests
 For stage 2, stage 3 and stage 4, a list of tests is required, this is to keep track of what needs to be tested and to ensure that all functionality is tested and to ensure we don't do any unnecessary testing.
@@ -51,7 +56,7 @@ The structure of the tests are as follows:
 - Test data (If required)
 
 ### Testing Status
-Each test requires a status once completed. The status are as follows;
+Each test requires a statuses once completed. The status are as follows:
 - Passed – the testing passed and has been confirmed to work as expected.
 	- Data required 
 		- Notes.
@@ -81,4 +86,4 @@ This bug will require multiple areas to be filled in, these are as Below:
 ![Jira Bug Raising](images/jira/raising-bugs.PNG)
 
 ### Test Data
-When testing on 'Staging' and 'Prod' we will require valid data and logons to access the system. These should be stored in a 'Google Docs' that the project lead/manager should have access to, These should be kept up to date. This should contain data that you need or is helpful to have when you are testing the given project. 
+When testing on 'Staging' and 'Prod' we will require valid data and credentials. These should be stored in a 'Google Docs' that the project lead/manager should have access to, these should be kept up to date. This should contain data that you need or is helpful to have when you are testing the given project. 

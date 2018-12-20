@@ -24,16 +24,16 @@ It should be used as a guide to ensure a great & consistent experience for the e
 - Appropriate validation for different inputs (phone number, postcode)
 - The forms are not too long & and are grouped logically
 - The user is alerted of the form lifecycle (success, error)
-- When modals are used in the context of updates, ensure inputs are correctly pre populated.
+- When modals are used in the context of updates, ensure inputs are correctly pre populated
 - Autofill is disabled on inputs where appropriate
-- Inputs have correct type property ( emails have email type, phone numbers have tel type)
+- Inputs have correct type property (emails have email type, phone numbers have tel type)
 
 #### Modals
 - Modals are animated on both display and dismiss
 - Modals are used where appropriate over pages
 
 #### Formatting
-- Dates are formatted correctly for the appropriate audience.
+- Dates are formatted correctly for the appropriate audience
 - Monetary values are formatted correctly for the appropriate audience
 - Phone numbers are formatted correctly for the appropriate audience
 
@@ -79,8 +79,8 @@ It should be used as a guide to ensure a great & consistent experience for the e
 - Laravel Notifications are used to notify the user of system events (subscription expired, new friend request etc)
 - Sensitive values are either hashed or encrypted (when required by law or common sense)
 - Third party API integrations that can & will be re-used across projects should be implemented as external packages, assuming no existing open-source integration exists, to allow for independent testing and code reuse if appropriate.
-- Ensure third party API keys (e.g. SES keys) are not present within .env.example and other relevant files outside of the production / development environments.
-- If Travis CI is being used, ensure third party API keys are input directly into Travis CI’s website relevant to the project and make sure “Display value in build log” is not checked.
+- Ensure third party API keys (e.g. SES keys) are not present within .env.example and other relevant files outside of the production / development environments
+- If Travis CI is being used, ensure third party API keys are input directly into Travis CI’s website relevant to the project and make sure “Display value in build log” is not checked
 
 #### Controllers
 - Ensure each controller function does not go over 250 lines
