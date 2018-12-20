@@ -19,21 +19,21 @@ This stage is for the developers to test and ensure that there are no obvious bu
 												
 ### Stage 2 – PR (Pull Request) Testing
 At this stage the PR has been created and must adhere to the following criteria before being accepted.
-One check will be from a member of the development team to check over the code is to review the code itself. 
-The other check will be from QA, that will test the code changes itself, ensure that it is working and there are not bugs in the relevant area. This is more of a 'Spotlight Check', focused testing around each change that has been made and near areas that could be affected by this change. No matter how small an issue might seem it must be reported and signed off before continuing.
-Once both parties have accepted the code we will then go onto Stage 3.
+One check will be from a member of the development team to check over the code and to review the code itself to ensure it meets our internal standards.
+The other check will be from QA, that will test the code changes itself, ensure that it is working and there are no bugs in the relevant area(s). This is more of a 'Spotlight Check', focused testing around each change that has been made and near areas that could be affected by this change. No matter how small an issue might seem it must be reported and signed off before continuing.
+Once both parties have accepted the code we will then proceed to stage 3.
 												
 ### Stage 3 – M2S (Master to Staging) Testing
 This area of testing is large end to end testing. We start by creating a new user, with a cleared database (as much as can be cleared). Testing will be used as if the customer was using the system, this would include all different user types such as: client, admin, worker. If a customer has a web application, mobile application, and any other applications then this process will be repeated for each one until QA is confident to say that the applications are working as expected.
 
 ### Stage 4 - Production Testing
-This area of testing is to test all key functionally of the application on prod to ensure that the application can function and does function as expected.
+This area of testing is large end to end testing. We start by creating a new user, with a cleared database (as much as can be cleared). Testing will be used as if the customer was using the system, this would include all different user types such as: client, admin, and/or worker. If a customer has a web application, mobile application, and any other application(s) then this process will be repeated for each application until QA is confident to say that the application(s) are working as expected.
 If any urgent issues are found they should be raised and created as hotfixes, if they are not urgent they should go into the development branch and start the testing process again (from stage 2).
 
-#### Staging - Prod Merge Timing
-Timing is a very important point in the merge between Staging and Prod.
-- We do not want to do it at peak working hours as this increases the chance of disrupting customer workflow.
-- We do not want to do it towards the end of the day as if something were to go wrong it would delay resolution times until the next morning.
+#### Staging - Production Merge Timing
+Timing is a very important point in the merge between staging and production.
+- We do not want to merge at peak working hours as this increases the chance of disrupting customer workflow.
+- We do not want to merge towards the end of the day as if something were to go wrong it would delay resolution times until the next morning.
 - We do not want to merge on Fridays as if something were to go wrong it would delay resolution times until the next working day.
 It is worth noting that each customer has different situations and stances on when they want their applications updating. So it is always worth confirming with the customer before hand.
 
