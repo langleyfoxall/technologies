@@ -84,5 +84,5 @@ This bug will require multiple areas to be filled in, these are as Below:
 
 ![Jira Bug Raising](images/jira/raising-bugs.PNG)
 
-##ßß# Test Data
+### Test Data
 When testing on Staging and Prod we will require valid data and logons to access the system. These should be stored in a Google Docs that the Project Lead/Manager should have access to, These should be kept up to date. This should contain data that you need or is helpful to have when you are testing the given project. 
