@@ -27,7 +27,7 @@ Once both parties have accepted the code we will then go onto Stage 3.
 ### Stage 3 – M2S (Master to Staging) Testing
 This area of testing is large end to end testing. We start by creating a new user, with a cleared database (as much as can be cleared). Testing will be used as if the customer was using the system, this would include all different user types such as: client, admin, worker. If a customer has a web application, mobile application, and any other applications then this process will be repeated for each one until QA is confident to say that the applications are working as expected.
 
-### Stage 4 - Prod Testing
+### Stage 4 - Production Testing
 This area of testing is to test all key functionally of the application on prod to ensure that the application can function and does function as expected.
 If any urgent issues are found they should be raised and created as hotfixes, if they are not urgent they should go into the development branch and start the testing process again (from stage 2).
 
