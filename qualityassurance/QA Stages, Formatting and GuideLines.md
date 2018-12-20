@@ -35,9 +35,6 @@ If any issues are found on Prod these need to be raised as a HotFix request and 
 #### Staging - Prod Merge Timing
 Timing is a very important point in the merge between Staging and Prod, We do not want to do it at peak working hours as if something does go wrong it doesn't effect our customers and doesn't impact on our relationship to them. We also do not want to do it on a Friday or before any period that we will not be in the office for a few days. As we want to be able to fix the issue as fast as possible and not make the customer wait. Preferably this merge would be done at night with both Q/A and Dev in incase something does need fixing, But this is not possible. Every customer is different to when it would be best to merge, So ask if in doubt ask the project lead or a manager to when they would advise the merge.
 
-## Test Data
-When testing on Staging and Prod we will require valid data and logons to access the system. These should be stored in a Google Docs that the Project Lead/Manager should have access to, These should be kept up to date. This should contain data that you need or is helpful to have when you are testing the given project. 
-
 ## Test Cycle
 
 Test cycles are a collection of tests that need to be ran. Cycles should always be given a time frame and a time estimate to ensure that we are completing them in a timely manner and to enable management to work out work flows.
@@ -86,3 +83,6 @@ When you find a bug, you will need to raise a bug on the Jira Service Desk.
 This bug will require multiple areas to be filled in, these are as Below:
 
 ![Jira Bug Raising](images/jira/raising-bugs.PNG)
+
+##ßß# Test Data
+When testing on Staging and Prod we will require valid data and logons to access the system. These should be stored in a Google Docs that the Project Lead/Manager should have access to, These should be kept up to date. This should contain data that you need or is helpful to have when you are testing the given project. 
