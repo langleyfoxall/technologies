@@ -15,7 +15,7 @@ Ensure that the 'env.example' is update and remove redundant fields/areas that a
 ## QA Stages
 For staging we are following a multi stage testing to enable us to ensure that the customer is getting a bug free and fully functioning system. This will be a merge between 'Agile' and 'Waterfall'.
 										
-### Stage 1 - Dev Testing
+### Stage 1 - Development Testing
 This stage is for the developers to test and ensure that there are not obvious bugs and that the code is working as expected before they create a PR (Pull Request). This will ensure that QA is not wasting time on obvious bugs that could have easily been spotted during development and be fix them before the pull request is made.
 												
 ### Stage 2 – PR (Pull Request) Testing
