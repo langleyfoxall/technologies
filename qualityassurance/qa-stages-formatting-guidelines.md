@@ -15,7 +15,7 @@ Ensure that the 'env.example' is update and remove redundant fields/areas that a
 ## QA Stages
 For staging we are following a multi stage testing to enable us to ensure that the customer is getting a bug free and fully functioning system. This will be a merge between 'Agile' and 'Waterfall'.
 										
-### Stage 1 - Dev Testing
+### Stage 1 - Development Testing
 This stage is for the developers to test and ensure that there are not obvious bugs and that the code is working as expected before they create a PR (Pull Request). This will ensure that QA is not wasting time on obvious bugs that could have easily been spotted during development and be fix them before the pull request is made.
 												
 ### Stage 2 – PR (Pull Request) Testing
@@ -27,7 +27,7 @@ Once both parties have accepted the code we will then go onto Stage 3.
 ### Stage 3 – M2S (Master to Staging) Testing
 This area of testing is large end to end testing. We start by creating a new user, with a cleared database (as much as can be cleared). Testing will be used as if the customer was using the system, this would include all different user types such as: client, admin, worker. If a customer has a web application, mobile application, and any other applications then this process will be repeated for each one until QA is confident to say that the applications are working as expected.
 
-### Stage 4 - Prod Testing
+### Stage 4 - Production Testing
 This area of testing is to test all key functionally of the application on prod to ensure that the application can function and does function as expected.
 If any urgent issues are found they should be raised and created as hotfixes, if they are not urgent they should go into the development branch and start the testing process again (from stage 2).
 
