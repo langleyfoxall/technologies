@@ -6,8 +6,7 @@ This Section is to instruct on when to test, how you should be formatting the bu
 ### Commands
 When you are developing a project, the project might require commands to run and work correctly, these can range from simple set up commands to automatic updating commands, a list of these commands and a brief description of what these commands do will help QA move more smoothly and avoid raising unnecessary questions.
 
-Some projects require certain status or manipulation of the database to update systems and cause it to do the next stage/part of the system to test. We would like these to be formed into commands, QA should not need to touch the database side to test the system, this leads to user error. This will allow the tester to carry out complex tasks without directly modify the database or sensitive areas of the application.
-
+Some projects require certain status or manipulation of the database to update systems and cause it to do the next stage/part of the system to test. We would like these to be formed into commands if it is a complex task or a detailed outline of what is required to be completed and a description of when and why you would need to do this, QA should have minimum contact with database directly, this leads to user error. This will allow the tester to carry out complex tasks without directly modify the database or sensitive areas of the application.
 
 ### ENV
 Ensure that the 'env.example' is update and remove redundant fields/areas that are not required anymore.
