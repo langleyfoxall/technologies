@@ -1,6 +1,6 @@
 # 📗 Web Quality Assurance Handbook
 
-Test extensively against assumptions in Jira, at the end of the day this is what the client is paying for. Below is a list of bullet points for common individual sections of a Laravel web app, although a lot of the core concepts apply regardless of web technology used (events bus, queues etc are all common design patterns)
+Test extensively against assumptions in Jira, at the end of the day this is what the client is paying for. Below is a list of bullet points for common individual sections of a Laravel web app, although a lot of the core concepts apply regardless of web technology used (events bus, queues etc. are all common design patterns)
 
 It should be used as a guide to ensure a great & consistent experience for the end user.
 
@@ -70,7 +70,7 @@ It should be used as a guide to ensure a great & consistent experience for the e
 ### Whitebox
 #### General
 - Filenames must follow standard coding conventions (UsersController.php)
-- Classes must follow standard coding conventions ( UsersController)
+- Classes must follow standard coding conventions (UsersController)
 - Variables should follow camelCase & be descriptive (myName)
 - All long running operations (at your discretion) are queued
 - APIs follow REST architecture as closely as possible

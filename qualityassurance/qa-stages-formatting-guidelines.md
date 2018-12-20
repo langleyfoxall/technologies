@@ -1,21 +1,21 @@
-# ♻️ QA Testing Stages, Formatting and GuideLines
+# ♻️ QA Testing Stages, Formatting and Guidelines
 
-This Section is to instruct on when to test, how you should be formatting the bugs raised and guideLines for QA
+This section is to instruct on when to test, how you should be formatting the bugs raised and guidelines for QA
 
 ## Developing with QA in mind
 ### Commands
 When you are developing a project, the project might require commands to run and work correctly, these can range from simple set up commands to automatic updating commands, a list of these commands and a brief description of what these commands do will help QA move more smoothly and avoid raising unnecessary questions.
 
-Some projects require certain status or manipulation of the database to update systems and cause it to do the next stage/part of the system to test. We would like these to be formed into commands if it is a complex task or a detailed outline of what is required to be completed and a description of when and why you would need to do this, QA should have minimum contact with database directly, this leads to user error. This will allow the tester to carry out complex tasks without directly modify the database or sensitive areas of the application.
+Some projects require certain data to have certain statuses and manipulation of the database to update systems and cause it may be required to force the system onto the next process. We would like these to be formed into commands if it is a complex task or a detailed outline of what is required to be completed and a description of when and why you would need to do this, QA should have minimum contact with database directly, this leads to user error. This will allow the tester to carry out complex tasks without directly modify the database or sensitive areas of the application.
 
 ### ENV
-Ensure that the 'env.example' is update and remove redundant fields/areas that are not required anymore.
+Ensure that the 'env.example' is up to date and remove redundant keys that are no longer required.
 		
 ## QA Stages
-For staging we are following a multi stage testing to enable us to ensure that the customer is getting a bug free and fully functioning system. This will be a merge between 'Agile' and 'Waterfall'.
+For staging, we are following a multi-stage testing methodology to enable us to ensure that the customer is getting a bug free and fully functioning system. This will be a merge between 'Agile' and 'Waterfall' methodologies.
 										
 ### Stage 1 - Development Testing
-This stage is for the developers to test and ensure that there are not obvious bugs and that the code is working as expected before they create a PR (Pull Request). This will ensure that QA is not wasting time on obvious bugs that could have easily been spotted during development and be fix them before the pull request is made.
+This stage is for the developers to test and ensure that there are no obvious bugs and that the code is working as expected before they create a PR (Pull Request). This will ensure that QA is not wasting time on obvious bugs that could have easily been spotted during development and be fixed them before the pull request is made.
 												
 ### Stage 2 – PR (Pull Request) Testing
 At this stage the PR has been created and must adhere to the following criteria before being accepted.
@@ -34,14 +34,14 @@ If any urgent issues are found they should be raised and created as hotfixes, if
 Timing is a very important point in the merge between Staging and Prod.
 - We do not want to do it at peak working hours as this increases the chance of disrupting customer workflow.
 - We do not want to do it towards the end of the day as if something were to go wrong it would delay resolution times until the next morning.
-- We do not want to do it on Fridays as if something were to go wrong it would delay resolution times until the next working day.
+- We do not want to merge on Fridays as if something were to go wrong it would delay resolution times until the next working day.
 It is worth noting that each customer has different situations and stances on when they want their applications updating. So it is always worth confirming with the customer before hand.
 
 ## Test Cycle
 Test cycles are a collection of tests that need to be ran. Cycles should always be given a time frame and a time estimate to ensure that we are completing them in a timely manner and to enable management to organize work efficiently.
 
 ### Tests
-For stage 2, stage 3 and stage 4, a list of tests is required, this is to keep track of what needs to be tested and to ensure that all functionality is tested and to ensure we don't do any unnecessary testing.
+For stage 2, stage 3 and stage 4, a list of tests is required. This is to keep track of what needs to be tested and to ensure that all functionality is tested and to ensure we don't do any unnecessary testing.
 The structure of the tests are as follows:
 - Test name
 - Priority
@@ -85,4 +85,4 @@ This bug will require multiple areas to be filled in, these are as Below:
 ![Jira Bug Raising](images/jira/raising-bugs.PNG)
 
 ### Test Data
-When testing on 'Staging' and 'Prod' we will require valid data and credentials. These should be stored in a 'Google Docs' that the project lead/manager should have access to, these should be kept up to date. This should contain data that you need or is helpful to have when you are testing the given project. 
+When testing on `staging` and `production` we will require valid data and credentials. These should be stored in a 'Google Docs' document that the project lead/manager should have access to, these should be kept up to date. The document should contain data that you need or is helpful to have when you are testing the given project.
