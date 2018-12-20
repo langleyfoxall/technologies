@@ -17,7 +17,7 @@ We work with a number of different software platforms. Each has their own set of
 * 🖥 Desktop
   * [🖼 Windows apps](platforms/desktop/windows.md)
 * ✅ Quality Assurance
-  * [♻️ QA Stages, Formatting and GuideLines](qualityassurance/qastagesformattingguidelines.md)
-  * [📗 Web Quality Assurance Handbook](qualityassurance/webqualityassurancehandbook.md)
+  * [♻️ QA Stages, Formatting and GuideLines](qualityassurance/qa-stages-formatting-guidelines.md)
+  * [📗 Web Quality Assurance Handbook](qualityassurance/web-quality-assuranceh-and-book.md)
 * 🛠 [DevOps](devops/devops.md)
 * 🔢 [Style Guides](styleguides/styleguides.md)
