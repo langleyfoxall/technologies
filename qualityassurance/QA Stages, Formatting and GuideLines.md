@@ -1,8 +1,6 @@
 # 📚 QA Testing Stages, Formatting and GuideLines
 
-This Section is to instruct on when to test and how you should be formatting the Bugs.
-
-For staging we are following a multi stage testing to enable us to ensure that the customer is getting a bug free and fully functioning system. This will be a merge between Agile and Waterfall.
+This Section is to instruct on when to test, how you should be formatting the Bugs raised and GuideLines for QA
 
 ## Developing with QA in mind
 
@@ -15,6 +13,8 @@ Some projects requires certain status or manipulation of the database to update 
 Ensure that the 'env.example' is update and remove redundant fields/areas that are not required anymore.
 		
 ## QA Stages
+
+For staging we are following a multi stage testing to enable us to ensure that the customer is getting a bug free and fully functioning system. This will be a merge between Agile and Waterfall.
 										
 ### Stage 1 - Dev Testing:
 This stage is for the Developers to test and ensure that there are not obvious bugs and that the code is working as expected before they create a PR (Pull Request), This will ensure that QA is not wasting time on obvious bugs that could have easily been spotted during development and be fix them before the pull request is made.
@@ -38,9 +38,26 @@ Timing is a very important point in the merge between Staging and Prod, We do no
 ## Test Data
 When testing on Staging and Prod we will require valid data and logons to access the system. These should be stored in a Google Docs that the Project Lead/Manager should have access to, These should be kept up to date. This should contain data that you need or is helpful to have when you are testing the given project. 
 
-## Testing Status
+## Test Cycle
 
-For Stage 2 and Stage 3 Lists of tests completed for each test is required, with each test you will need a Status. The Status are as follows;
+Test cycles are a collection of tests that need to be ran. Cycles should always be given a time frame and a time estimate to ensure that we are completing them in a timely manner and to enable management to work out work flows.
+
+### Tests
+For Stage 2, Stage 3 and stage 4, a list of tests is required, this is to keep track of what needs to be tested and to ensure that all functionality is tested and to ensure we don't do any unnecessary testing.
+The structure of the tests are as follows:
+- Test Name
+- Priority
+    - Critical
+    - High
+    - Medium
+    - Low
+- Expected Outcome
+- Estimated time to complete testing
+- Area of Testing (Such as the what Pages/Screens)
+- Test Data (If Required)
+
+### Testing Status
+Each test requires a status once completed. The Status are as follows;
 - Passed – The testing passed and has been confirmed to work as expected.
 	- Data Required 
 		- Notes.
@@ -63,7 +80,7 @@ For Stage 2 and Stage 3 Lists of tests completed for each test is required, with
 		- Manager who confirmed OOS.
 		- Your Name.
 
-## Raising A Bug
+### Raising A Bug
 
 When you find a bug, you will need to raise a bug on the Jira Service Desk.
 This bug will require multiple areas to be filled in, these are as Below:
