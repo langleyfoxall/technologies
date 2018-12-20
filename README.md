@@ -16,5 +16,8 @@ We work with a number of different software platforms. Each has their own set of
   * [📲 React Native](platforms/mobile/react-native/introduction.md)
 * 🖥 Desktop
   * [🖼 Windows apps](platforms/desktop/windows.md)
+* 🛠 Quality Assurance
+  * [🍎 QA Stages, Formatting and GuideLines](platforms/qualityassurance/qastagesformattingguidelines.md)
+  * [🍎 Web Quality Assurance Handbook](platforms/qualityassurance/webqualityassurancehandbook.md)
 * 🛠 [DevOps](devops/devops.md)
 * 🔢 [Style Guides](styleguides/styleguides.md)
