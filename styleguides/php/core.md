@@ -55,7 +55,12 @@ Concatenation of string should be done without spaces, as follows.
 return $this->first_name.' '.$this->last_name;
 ```
 
+Referencing array elements by their index should be done without 
+spaces at the start and end of square brackets, as follows.
 
+```php
+$data[$key]
+```
 
 ### Adhering to standards
 It’s all well and good having a set standard outlined - but following it can be difficult unless you’re always thinking about following it.
