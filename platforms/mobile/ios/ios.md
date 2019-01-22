@@ -12,3 +12,11 @@ Because Swift is a reletively new language and that iOS itself changes every yea
 ## Tools
 - Managing certificates & provisioning profiles can be a huge pain, we use [Match](https://docs.fastlane.tools/actions/match/) to handle our certs, more is coming soon about this process!
 - [Fastlane](https://fastlane.tools/) is used for new apps to automate common tasks involved in deploying your app, this includes building your app for TestFlight & the App Store, taking screenshots & automating the filling of app store metadata, greatly decreasing the overhead in terms of deploying iOS applications (More coming soon!)
+
+## Privacy Policy
+
+Every app must have a privacy policy, regarding of whether it is public or private.
+
+> All apps must include a link to their privacy policy in the App Store Connect metadata field and within the app in an easily accessible manner.
+
+Source: [App Store Review Guidelines](https://developer.apple.com/app-store/review/guidelines/#privacy)
