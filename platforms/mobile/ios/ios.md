@@ -15,7 +15,7 @@ Because Swift is a reletively new language and that iOS itself changes every yea
 
 ## Privacy Policy
 
-Every app must have a privacy policy, regarding of whether it is public or private.
+Every app must have a privacy policy, regardless of whether it is public or private.
 
 > All apps must include a link to their privacy policy in the App Store Connect metadata field and within the app in an easily accessible manner.
 
