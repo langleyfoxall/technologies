@@ -10,7 +10,8 @@ _Note: This is still a work in progress_
 
 ## Structure
 
-#### Models
+### Models
+
 Models should be placed into their own folder and namespace. This is to ensure that the Project explorer window doesn't
 become clogged over time on projects.
 
@@ -20,4 +21,19 @@ App\User::class
 
 //Becomes this
 App\Models\User::class
+```
+
+### Middleware
+
+Middleware should be referenced in lowercase kebab-case. This matches the manner
+in which Laravel's built-in middleware is referenced.
+
+Example:
+
+```php
+Route::middleware(['admin-force-password-change'])->group(function () use ($adminRouter) {
+    Route::middleware(['user-read-only'])->group(function () use ($adminRouter){
+         // routes...
+    })
+});
 ```
