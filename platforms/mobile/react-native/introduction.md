@@ -65,9 +65,13 @@ To see what Expo is capable of and for the quick start guide [visit the Expo doc
 **See [Detaching](#detaching) for more information*
 
 #### Over The Air Updates
-Expo has support for OTAs for apps that have been distributed to users through the app store, however there are numerous open issues regarding them on the Expo GitHub page and due to the fact that projects cannot be shared between multiple accounts the update requires access to the original developer's Expo account.
+Expo has support for over the air updates bypassing the sometimes lengthy Apple review process. By default OTAs are enabled on a project and can be disabled by setting `updates.enabled` to `false` in the `App.json`.
 
-***It is not recommended to use OTAs at this time.***
+##### Release Channels
+By default when you run `expo publish` your app will bundled and deployed over the air to your clients. Updated will only be sent to users whose apps are on the same release channel that was specified when publishing. By default the release channel `default` is used by `expo build` and `expo publish`, meaning that if you don't specify channels these commands in this was this app will receive OTAs when the app is published. However this makes it easy to accidently push out an update to production. When building your app for Staging or Production you should use the `staging` and `production` release channels respectively. To do this when building the app add the `--release-channel` argument when running the  build command. For example: `expo build:ios --release-channel production`. This means that this build of the app will only receive OTAs published on the production channel. To do this run the publish command with the `--release-channel` argument. For example: `expo publish --release-channel production`.
+
+##### Caveats
+   * OTAs must be published from the account that the app was built on.
 
 #### Cases where Expo cannot be used
    * Push notifications
