@@ -3,16 +3,12 @@
     *   [PHP](#php)
         *   [PSR-1](#php)   
         *   [PSR-2](#php)   
-    *   [Laravel](#laravel)
-    *   [RESTful API's](#restful-apis)
 *   [Amendments](#amendments)
     *   [Variables](#variables)
     *   [Methods](#methods)
 *   [Adhering to standards](#adhering-to-standards)
     *   [PhpStorm + PHP Code Sniffer](#phpstorm--php-code-sniffer)
     *   [PhpStorm + PHP-CS-Fixer](#phpstorm--php-cs-fixer)
-
-
 
 ### Introduction
 Our goal isn’t to rewrite the unspoken rules of languages - and most of what we’re looking for is defined in the relevant documentation. 
@@ -23,14 +19,6 @@ The below documentation links should be followed unless defined otherwise in thi
 
    * [PSR-1](https://www.php-fig.org/psr/psr-1/)
    * [PSR-2](https://www.php-fig.org/psr/psr-2/)
-   
-#### Laravel
-
-   * [Laravel Documentation](https://laravel.com/docs/)
-
-#### RESTful API's
-
-   * [Best Practices for a pragmatic RESTful API](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
 
 With how we work being heavily framework based - these frameworks (especially Laravel) offer a TON of stuff to stop us from making messy code. A lot of the time this stuff will not be obvious unless you’re looking for it, so looking through the documentation top to bottom should be homework for everyone’s first encounter with the framework (If you haven’t done this, please do).
 
@@ -43,7 +31,36 @@ Discussions will be had every other Friday at close of play to discuss/vote on w
 Variable names MUST be defined in camelCase
 
 #### Methods
-Opening braces for methods MUST be on the same line as the declaration, and closing braces MUST go on the next line after the body.
+
+Chained methods MUST be on new lines, and be indented with one tab, as follows:
+
+```
+$email->from('foo@example.com')->to('bar@example.com')->subject('A great message')->send();
+```
+
+Becomes
+
+```
+$email->from('foo@example.com')
+    ->to('bar@example.com')
+    ->subject('A great message')
+    ->send();
+```
+
+#### Spacing
+
+Concatenation of string should be done without spaces, as follows.
+
+```php
+return $this->first_name.' '.$this->last_name;
+```
+
+Referencing array elements by their index should be done without 
+spaces at the start and end of square brackets, as follows.
+
+```php
+$data[$key]
+```
 
 ### Adhering to standards
 It’s all well and good having a set standard outlined - but following it can be difficult unless you’re always thinking about following it.

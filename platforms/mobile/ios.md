@@ -1,1 +1,0 @@
-# Langley Foxall iOS Apps

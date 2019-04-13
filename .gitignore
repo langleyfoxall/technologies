@@ -1,1 +1,10 @@
-.idea
+.idea/
+.vscode/
+.expo/
+
+node_modules/
+vendor/
+
+.env
+.DS_Store
+
