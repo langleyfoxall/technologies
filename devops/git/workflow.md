@@ -8,8 +8,8 @@ Branches should be harmonious between projects and follow a set standard. Branch
 after the initial commit, with the correct protection rules in place.
 
 * `master` should be the working development branch [UNSTABLE]
-* `feature/*` branches created from master for each feature
-* `hotfix/*` branches should only be created off of `staging` or `production` and merged accordingly.
+* `feature/*` branches created from master for each feature, change or fix
+* `hotfix/*` branches should only be created off of `staging` or `production` and merged accordingly, this is only for fixes directly in `production` or `staging`, for other fixes use `feature/*` branches
 * `staging` should contain the latest, customer visible changes and be on the `Workshop`
 * `production` should contain stable code on live servers.
 
