@@ -1,90 +1,89 @@
 # Adobe XD
 
-**Keep up to date**
+**Keeping up to date with the latest features**
 
 https://www.adobe.com/uk/products/xd/features.html
 
 
-### Setting up an Artboard
+## Setting up an Artboard
 
-#### Desktop
+### Desktop
 
 The default settings for a desktop artboard is:
 
 Artboard width: 1920
 - Recommended workspace view: 1200
-   - **Grid settings for default Bootstrap website (closest setting)**
-   - Grid: Layout
-   - Columns: 12
-   - Gutter width: 30
-   - Column Width: 72
-   - Linked Margin: 366
+...**Grid settings for default Bootstrap website (closest setting)**
+...Grid: Layout
+...Columns: 12
+...Gutter width: 30
+...Column Width: 72
+...Linked Margin: 366
 
-   - **Grid setting for fluid Bootstrap website**
-   - Linked Margin: 3
+**Grid setting for fluid Bootstrap website**
+...Linked Margin: 3
 
 Viewport height (default): 1080
 
+**Tips:**
 **Draggable guides** can be created by hovering over the left and top of the artboard and then dragging onto it.
 
 
-#### Tablet / Mobile
+### Tablet / Mobile
 
 The project specifications should document which tablet/mobile devices, the app will be primarily used on.
-If the requirements are based on multiple resolutions, design to the smallest device as it is easier to scale upwards instead of down (mobile first design).
-- Create multiple sizes of resolutions if needed.
+If the requirements are based on multiple resolutions then you should design to the smallest device as it is easier to scale to a larger resolution (mobile first design).
+
+**Tips:**
+- Create multiple artboards of different resolutions sizes (if needed).
 - The smallest screen size should be optimised for an iPhone 5.
 
 
-### Assets
+## Assets
 
-When creating a new project, you should set up global/reusable assets. This will help keep the design style constant and save valuable time when creating large projects.
+Keep your design styling constant and save valuable time by creating reusable/global assets.
 
 The following assets can be created:
 
 **Colors**
-
-Place all brand / reusable colours here.
+Store your main projects colour pallet.
 
 **Character Styles**
-
-Create all typography styles here.
+Create different typography styles to be used throughout the project.
 
 **Components**
+Create components such as navigation bars, buttons, cards or any other reusable elements.
 
-Create components such as navigation bars, buttons, cards or any other reusable element here.
-
+**Keep in mind:**
 _'Master'_ components - These are the main components which when edited, all child components will be edited in the project.
 
 _'Child'_ components - These are copies of the Master Components but can be edited without affecting the master or other child components. eg. change component colour
 
 
-### Prototyping
+## Prototyping
 
-After creating a design, you should create a prototype version which will allow users to navigation through the wireframes. This will allow you to test the user flow to make sure everything makes sense and is in the correct position.
-Having a working prototype will allow the sales team guide clients through what the end product will look like.
+After you have finished creating your design, you should turn it into a prototype which will allow users to navigation through the wireframes. By doing this you have the ability to test the user-flow and everything is correct, etc.
 
-Broken / missing links will cause the artboard to be hidden from view when exporting n prototype and developer view.
+Having a working prototype will allow the client to navigate through designs and get a clear idea of the end product.
+
+Having broken or missing links will cause the artboard to be hidden from view when exporting n prototype and developer view.
 
 
-### Exporting
+## Exporting
 
-Once the wireframes and prototypes are complete, you can export into the following views:
+Once the wireframes and prototypes are completed, you can export into the following views:
 
 **PDF**
-
-Produces a PDF version of selected artboards which can be easily emailed.
+Produces a PDF version of artboards which can be easily emailed.
 
 **Share for Review**
-
-Creates a prototype version of the app / website which clients can navigate through. Clients can create and pin comments to the wireframes to request changes etc.
+Creates a linked prototype version of the app or website where clients can easily navigate through. Clients can create and pin comments to the wireframes to request changes etc.
 
 **Share for Development**
+This option creates an overview of the project where you can see a detailed view of the page styling. The options include colour pallets, typography, assets(with download option), along with all the styling options, interactions and navigation links.
 
-Creates an overview of the project where you can see a detailed view of the page. This will show the colour pallet, typography, assets(with download option), all styling options and interaction / navigation links.
 
-
-#### Designing to iOS
+## Designing to iOS
 
 Use the link below to view the design resources and guidelines for iOS. If the app does not meet the guidelines, Apple may reject it.
 
