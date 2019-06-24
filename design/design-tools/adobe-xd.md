@@ -13,26 +13,30 @@ The default settings for a desktop artboard is:
 
 Artboard width: 1920
 - Recommended workspace view: 1200
-...**Grid settings for default Bootstrap website (closest setting)**
-...Grid: Layout
-...Columns: 12
-...Gutter width: 30
-...Column Width: 72
-...Linked Margin: 366
+**Grid settings for default Bootstrap website (closest setting)**
+* Grid: Layout
+* Columns: 12
+* Gutter width: 30
+* Column Width: 72
+* Linked Margin: 366
+
 
 **Grid setting for fluid Bootstrap website**
-...Linked Margin: 3
+*Linked Margin: 3
+
 
 Viewport height (default): 1080
+
 
 **Tips:**
 **Draggable guides** can be created by hovering over the left and top of the artboard and then dragging onto it.
 
 
-### Tablet / Mobile
+## Tablet / Mobile
 
 The project specifications should document which tablet/mobile devices, the app will be primarily used on.
 If the requirements are based on multiple resolutions then you should design to the smallest device as it is easier to scale to a larger resolution (mobile first design).
+
 
 **Tips:**
 - Create multiple artboards of different resolutions sizes (if needed).
@@ -46,15 +50,22 @@ Keep your design styling constant and save valuable time by creating reusable/gl
 The following assets can be created:
 
 **Colors**
+
 Store your main projects colour pallet.
 
+
 **Character Styles**
+
 Create different typography styles to be used throughout the project.
 
+
 **Components**
+
 Create components such as navigation bars, buttons, cards or any other reusable elements.
 
+
 **Keep in mind:**
+
 _'Master'_ components - These are the main components which when edited, all child components will be edited in the project.
 
 _'Child'_ components - These are copies of the Master Components but can be edited without affecting the master or other child components. eg. change component colour
@@ -76,8 +87,10 @@ Once the wireframes and prototypes are completed, you can export into the follow
 **PDF**
 Produces a PDF version of artboards which can be easily emailed.
 
+
 **Share for Review**
 Creates a linked prototype version of the app or website where clients can easily navigate through. Clients can create and pin comments to the wireframes to request changes etc.
+
 
 **Share for Development**
 This option creates an overview of the project where you can see a detailed view of the page styling. The options include colour pallets, typography, assets(with download option), along with all the styling options, interactions and navigation links.
@@ -94,7 +107,7 @@ Download iOS UI Kit for XD
 https://developer.apple.com/design/resources/
 
 
-#### Designing to Android
+## Designing to Android
 
 Use the link below to view the design resources and guidelines for material design.
 
@@ -105,7 +118,7 @@ Download Material UI Kit for XD
 https://material.io/archive/guidelines/resources/sticker-sheets-icons.html
 
 
-#### Designing for Web
+## Designing for Web
 
 When designing for Bootstrap, use the link below to see what components and layout options are available to use.
 
@@ -116,14 +129,14 @@ When designing for Flexbox, keep the following in mind.
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 
-#### Adding graphs / charts
+## Adding graphs / charts
 
 When designing for charts and graphs, use the link below as a guide.
 
 http://recharts.org/en-US/
 
 
-#### Stock images / icons / files
+## Stock images / icons / files
 https://unsplash.com/
 https://pixabay.com/
 https://elements.envato.com
