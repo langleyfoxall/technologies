@@ -28,7 +28,7 @@ Viewport height (default): 1080
 
 
 **Tips:**
--**Draggable guides** can be created by hovering over the left and top of the artboard and then dragging onto it.
+- Draggable guides** can be created by hovering over the left and top of the artboard and then dragging onto it.
 
 
 ## Setting up an Artboard - Tablet / Mobile
