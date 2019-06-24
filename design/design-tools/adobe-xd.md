@@ -12,7 +12,7 @@ The default settings for a desktop artboard is:
 Artboard width: 1920
 - Recommended workspace view: 1200
 
-**Grid settings for default Bootstrap website (closest setting)**
+- **Grid settings for default Bootstrap website (closest setting)**
 * Grid: Layout
 * Columns: 12
 * Gutter width: 30
@@ -28,7 +28,7 @@ Viewport height (default): 1080
 
 
 **Tips:**
-**Draggable guides** can be created by hovering over the left and top of the artboard and then dragging onto it.
+-**Draggable guides** can be created by hovering over the left and top of the artboard and then dragging onto it.
 
 
 ## Setting up an Artboard - Tablet / Mobile
