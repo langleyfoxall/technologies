@@ -5,4 +5,4 @@
 * [Adobe Illustrator](design-tools/adobe-illustrator.md) (Create icons and illustrations)
 * [Adobe InDesign](design-tools/adobe-indesign.md) (Create documents)
 * [Adobe Spark](https://spark.adobe.com) (Basic social media posts)
-...[Social Media Post Sizes](design-tools/social-media.md)
+    * [Social Media Post Sizes](design-tools/social-media.md)
