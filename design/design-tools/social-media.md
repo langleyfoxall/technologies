@@ -3,7 +3,7 @@
 Taken from https://www.falcon.io/insights-hub/topics/social-media-management/social-media-images-guides/
 
 
-### Facebook
+## Facebook
 
 Facebook profile picture size: 180 x 180
 
@@ -28,7 +28,7 @@ Facebook video ad size: 1280 x 720
 Facebook Story ad size: 1080 x 1920
 
 
-### Linkedin
+## Linkedin
 
 LinkedIn company logo size: 300 x 300
 
@@ -53,7 +53,7 @@ LinkedIn video size: 256 x 144 (minimum) to 4096 x 2304 (maximum)
 Maximum LinkedIn video length: 10 minutes
 
 
-### Twitter
+## Twitter
 
 Twitter profile picture size: 150 x 150
 
@@ -72,7 +72,7 @@ Twitter ad size (image): 1200 x 675
 Twitter ad size (video): 720 x 720 (square), 1280 x 720 (landscape), 720 x 1280 (portrait)
 
 
-### Instagram
+## Instagram
 
 Instagram profile picture size: 180 x 180
 

@@ -5,14 +5,13 @@
 https://www.adobe.com/uk/products/xd/features.html
 
 
-## Setting up an Artboard
-
-### Desktop
+## Setting up an Artboard - Desktop
 
 The default settings for a desktop artboard is:
 
 Artboard width: 1920
 - Recommended workspace view: 1200
+
 **Grid settings for default Bootstrap website (closest setting)**
 * Grid: Layout
 * Columns: 12
@@ -22,7 +21,7 @@ Artboard width: 1920
 
 
 **Grid setting for fluid Bootstrap website**
-*Linked Margin: 3
+* Linked Margin: 3
 
 
 Viewport height (default): 1080
@@ -32,7 +31,7 @@ Viewport height (default): 1080
 **Draggable guides** can be created by hovering over the left and top of the artboard and then dragging onto it.
 
 
-## Tablet / Mobile
+## Setting up an Artboard - Tablet / Mobile
 
 The project specifications should document which tablet/mobile devices, the app will be primarily used on.
 If the requirements are based on multiple resolutions then you should design to the smallest device as it is easier to scale to a larger resolution (mobile first design).
@@ -85,14 +84,17 @@ Having broken or missing links will cause the artboard to be hidden from view wh
 Once the wireframes and prototypes are completed, you can export into the following views:
 
 **PDF**
+
 Produces a PDF version of artboards which can be easily emailed.
 
 
 **Share for Review**
+
 Creates a linked prototype version of the app or website where clients can easily navigate through. Clients can create and pin comments to the wireframes to request changes etc.
 
 
 **Share for Development**
+
 This option creates an overview of the project where you can see a detailed view of the page styling. The options include colour pallets, typography, assets(with download option), along with all the styling options, interactions and navigation links.
 
 
