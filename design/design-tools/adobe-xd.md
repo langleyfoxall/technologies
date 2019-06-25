@@ -98,7 +98,7 @@ Creates a linked prototype version of the app or website where clients can easil
 This option creates an overview of the project where you can see a detailed view of the page styling. The options include colour pallets, typography, assets(with download option), along with all the styling options, interactions and navigation links.
 
 
-## Designing to iOS
+## Designing for iOS
 
 Use the link below to view the design resources and guidelines for iOS. If the app does not meet the guidelines, Apple may reject it.
 
@@ -109,7 +109,7 @@ Download iOS UI Kit for XD
 https://developer.apple.com/design/resources/
 
 
-## Designing to Android
+## Designing for Android
 
 Use the link below to view the design resources and guidelines for material design.
 
@@ -131,7 +131,7 @@ When designing for Flexbox, keep the following in mind.
 https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 
-## Adding graphs / charts
+## Designing graphs and charts
 
 When designing for charts and graphs, use the link below as a guide.
 

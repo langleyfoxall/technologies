@@ -2,7 +2,7 @@
 
 ## Text Styles
 
-Paragraph styles -  Create typography styles such as titles, subtitles, body text and quote text.
+Paragraph styles -  Create typography styles such as titles, subtitles, body text and quote text to reuse throughout the document.
 - If you edit a paragraph style, it will update all the text assigned to that style.
 
 
