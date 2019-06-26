@@ -9,7 +9,8 @@ after the initial commit, with the correct protection rules in place.
 
 * `master` should be the working development branch [UNSTABLE]
 * `feature/*` branches created from master for each feature
-* `hotfix/*` branches should only be created off of `staging` or `production` and merged accordingly.
+* `fix/*` branches are for non-urgent fixes, and follow the same flow as feature branches.
+* `hotfix/*` branches should only be created off of `staging` or `production` and merged accordingly for urgent fixes only. However, they can be [cherry picked](https://git-scm.com/docs/git-cherry-pick) into other branches if absolutely necessary.
 * `staging` should contain the latest, customer visible changes and be on the `Workshop`
 * `production` should contain stable code on live servers.
 
