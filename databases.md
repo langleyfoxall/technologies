@@ -27,7 +27,7 @@ Below are a list of approved database management tools that you can download and
 * [TablePlus (Mac/ iOS)](https://tableplus.io/)
 ## Practices
 
-### Identitys
+### Identities
 
 ID's should be either auto-incrementing unsigned integers, or GUIDs/UUIDs. 
 
