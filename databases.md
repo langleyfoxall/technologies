@@ -24,7 +24,7 @@ Below are a list of approved database management tools that you can download and
 * [DataGrip (Universal)](https://www.jetbrains.com/datagrip/download/)
 * [MySQL Workbench (Universal)](https://www.mysql.com/products/workbench/)
 * [Realm Studio (Universal)](https://realm.io/products/realm-studio/)
-
+* [TablePlus (Mac/ iOS)](https://tableplus.io/)
 ## Practices
 
 ### Identitys
