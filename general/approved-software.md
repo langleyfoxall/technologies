@@ -29,6 +29,7 @@ new issue on this repository.
 * [GitHub Desktop](https://desktop.github.com/)
 * [Sublime Merge](https://www.sublimemerge.com/)
 * [Git Kraken](https://www.gitkraken.com/)
+* [Git Extensions](https://github.com/gitextensions/gitextensions)
 
 ## SSH Clients
 
