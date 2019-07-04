@@ -9,7 +9,8 @@ after the initial commit, with the correct protection rules in place.
 
 * `master` should be the working development branch [UNSTABLE]
 * `feature/*` branches created from master for each feature
-* `hotfix/*` branches should only be created off of `staging` or `production` and merged accordingly.
+* `fix/*` branches are for non-urgent fixes, and follow the same flow as feature branches.
+* `hotfix/*` branches should only be created off of `staging` or `production` and merged accordingly for urgent fixes only. However, they can be [cherry picked](https://git-scm.com/docs/git-cherry-pick) into other branches if absolutely necessary.
 * `staging` should contain the latest, customer visible changes and be on the `Workshop`
 * `production` should contain stable code on live servers.
 
@@ -43,6 +44,10 @@ re-wording the documentation in their own words.
 
 Only the person who created the pull request or admin should merge it. 
 Even though it may of been accepted by the reviewers the person who created it might of noticed a change after the fact or admins might have a reason for delaying the merge.
+
+Developers should avoid bulk changing indentation or spacing, as this can make pull requests more
+difficult to review. It these kind of bulk changes are required, they should ideally be submitted
+as a separate, independent pull request.
 
 ## Commits
 
