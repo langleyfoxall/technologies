@@ -16,7 +16,7 @@ We work with a number of different software platforms. Each has their own set of
   * [📲 React Native](platforms/mobile/react-native/introduction.md)
 * 🖥 Desktop
   * [🖼 Windows apps](platforms/desktop/windows.md)
-* 🗂  [Databases](databases.md)
+* 🗂  [Databases](general/databases.md)
 * 🛠 [DevOps](devops/devops.md)
 * 🔢 [Style Guides](styleguides/styleguides.md)
 * 📖 [Open Source Projects](general/open-source.md)
