@@ -14,6 +14,7 @@ new issue on this repository.
 * [JetBrains PhpStorm](https://www.jetbrains.com/phpstorm/)
 * [Microsoft Visual Studio Code](https://code.visualstudio.com/)
 * [Microsft Visual Studio](https://visualstudio.microsoft.com/)
+* [Sublime Text] (https://www.sublimetext.com/)
 
 ## Database Management Tools
 
