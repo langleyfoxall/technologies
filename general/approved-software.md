@@ -49,6 +49,11 @@ new issue on this repository.
 * [Postman](https://www.getpostman.com/)
 * [Insomnia](https://insomnia.rest/)
 
+## Third Party Terminals
+
+* [Hyper] (https://hyper.is/)
+* [iTerm2] (https://www.iterm2.com/)
+
 ## Miscellaneous
 
 * [Misc Tools](misc-tools.md) (?)
