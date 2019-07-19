@@ -42,8 +42,9 @@ issues or efficiency issues.
 Reviewers must directly link to the relevant section of the documentation when reviewing - refraining from
 re-wording the documentation in their own words.
 
-Only the person who created the pull request or admin should merge it. 
-Even though it may of been accepted by the reviewers the person who created it might of noticed a change after the fact or admins might have a reason for delaying the merge.
+If no one is assigned to the PR then only the person who created the pull request or admin should merge it. Even though it may of been accepted by the reviewers the person who created it might of noticed a change after the fact or admins might have a reason for delaying the merge.
+
+If other developers are assigned to the pull request then once approved it then anyone assigned can merge the pull request.
 
 Developers should avoid bulk changing indentation or spacing, as this can make pull requests more
 difficult to review. It these kind of bulk changes are required, they should ideally be submitted
