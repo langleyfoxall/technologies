@@ -15,7 +15,7 @@ Bad:
 ```css
 button {
   background-color: red;
-  text-transform: capitalize;
+  text-transform:   capitalize;
 }
 ```
 
