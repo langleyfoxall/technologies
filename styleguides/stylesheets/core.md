@@ -37,8 +37,8 @@ Bad:
 
 ```css
 button {
-   background-color: red;
-   text-transform: capitalize;
+    background-color: red;
+    text-transform: capitalize;
 }
 ```
 
