@@ -125,10 +125,10 @@ See the quickstart guide for information on setting up a project, writing code, 
 
 To see the code standards please refer to the documentation for the respective languages.
 
-   * [ReactJS]()
-   * [Obj-C]()
-   * [Swift]()
-   * [Java]()
+   * [React](/styleguides/react/core.md)
+   * [Objective C](/styleguides/objective-c/core.md)
+   * [Swift](/styleguides/swift/core.md)
+   * [Java](/styleguides/java/core.md)
 
 ## Recommended Packages
 
