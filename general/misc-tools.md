@@ -9,10 +9,11 @@ A collection of useful tools
   * [zsh](https://ohmyz.sh/)
   * [Drop all tables within active schema](https://gist.githubusercontent.com/dextermb/3811bb599286a8ee558efc10c2f57419/raw/70d5a86154f6d96872f279060fe14e065e2f3785/drop_all_tables.sql)
   * [Remove remoteless (dead) branches](https://gist.githubusercontent.com/dextermb/04c40d02a8e73fc52c90578824ca62ff/raw/201dd731d9c4d5ee6783e965d57578908fe1b467/delete_remoteless_branches.sh)
+  * [Delete all branches matching a specific pattern](https://gist.githubusercontent.com/DivineOmega/686423b7a1ead71f81a7909e973d533d/raw/7c733c1f9ab069120848c0f2a72bbe6d3efedf25/delete-all-feature-branches.txt)
   * [Command typo recovery](https://github.com/nvbn/thefuck)
 
 # Files
 
 A collection of useful files
 
-* [.gitignore](.gitignore)
+* [.gitignore](../.gitignore)

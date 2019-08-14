@@ -5,7 +5,7 @@
 
 Langley Foxall develop custom web applications and mobile apps to make businesses more efficient.
 
-We work with a number of different software platforms. Each has their own set of appropriate [tools](tools.md) and technologies.
+We work with a number of different software platforms. Each has their own set of appropriate tools and technologies.
   
 * [📚 Our Philosophy](general/our-software.md) 
 * [💻 General Engineering Practices](general/programming-practices.md)
@@ -19,5 +19,8 @@ We work with a number of different software platforms. Each has their own set of
 * ✅ Quality Assurance
   * [♻️ QA Stages, Formatting and GuideLines](qualityassurance/qa-stages-formatting-guidelines.md)
   * [📗 Web Quality Assurance Handbook](qualityassurance/web-quality-assuranceh-and-book.md)
+* 🗂  [Databases](general/databases.md)
 * 🛠 [DevOps](devops/devops.md)
 * 🔢 [Style Guides](styleguides/styleguides.md)
+* 📖 [Open Source Projects](general/open-source.md)
+* 💾 [Approved Software](general/approved-software.md)

@@ -33,3 +33,6 @@
    * [Vue Trumbowyg](https://github.com/ankurk91/vue-trumbowyg/) - Vue wrapped popular WYSIWYG editor
 
 * [Vue and React Side-by-Side Guide](https://medium.com/javascript-in-plain-english/i-created-the-exact-same-app-in-react-and-vue-here-are-the-differences-e9a1ae8077fd)
+
+* JavaScript
+   * [Core JS Standards](/styleguides/javascript/core.md)
