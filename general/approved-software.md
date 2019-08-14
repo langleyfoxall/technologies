@@ -14,6 +14,7 @@ new issue on this repository.
 * [JetBrains PhpStorm](https://www.jetbrains.com/phpstorm/)
 * [Microsoft Visual Studio Code](https://code.visualstudio.com/)
 * [Microsft Visual Studio](https://visualstudio.microsoft.com/)
+* [Sublime Text](https://www.sublimetext.com/)
 
 ## Database Management Tools
 
@@ -43,6 +44,11 @@ new issue on this repository.
 ## PHP Dependency Management
 
 * [Composer](https://getcomposer.org/)
+
+## API Development / Testing
+
+* [Postman](https://www.getpostman.com/)
+* [Insomnia](https://insomnia.rest/)
 
 ## Miscellaneous
 
