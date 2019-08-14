@@ -11,7 +11,8 @@ after the initial commit, with the correct protection rules in place.
 * `feature/*` branches created from master for each feature
 * `fix/*` branches are for non-urgent fixes, and follow the same flow as feature branches.
 * `hotfix/*` branches should only be created off of `staging` or `production` and merged accordingly for urgent fixes only. However, they can be [cherry picked](https://git-scm.com/docs/git-cherry-pick) into other branches if absolutely necessary.
-* `staging` should contain the latest, customer visible changes and be on the `Workshop`
+* `qa` should contain the latest, quality assurance (internal testing) visible changes and be on the `Shed` (`qa.project-name.langleyfoxall.app`)
+* `staging` should contain the latest, customer visible changes and be on the `Shed` (`project-name.langleyfoxall.app`)
 * `production` should contain stable code on live servers.
 
 #### Open Source
