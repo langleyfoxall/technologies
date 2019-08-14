@@ -24,6 +24,7 @@ new issue on this repository.
 * [Realm Studio (Universal)](https://realm.io/products/realm-studio/)
 * [TablePlus (Mac/ iOS)](https://tableplus.io/)
 * [HeidiSQL (Windows)](https://www.heidisql.com/)
+* [Microsoft SQL Server Management Studio (Windows)](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms)
 
 ## Git Clients
 
@@ -51,6 +52,11 @@ new issue on this repository.
 
 * [Postman](https://www.getpostman.com/)
 * [Insomnia](https://insomnia.rest/)
+
+## Third Party Terminals
+
+* [Hyper] (https://hyper.is/)
+* [iTerm2] (https://www.iterm2.com/)
 
 ## Miscellaneous
 
