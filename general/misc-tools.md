@@ -16,4 +16,4 @@ A collection of useful tools
 
 A collection of useful files
 
-* [.gitignore](.gitignore)
+* [.gitignore](../.gitignore)
