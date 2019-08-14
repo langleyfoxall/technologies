@@ -11,6 +11,8 @@ The following style guides are currently outlined:
 - Javascript
   - [Core](javascript/core.md)
   - [React](javascript/react.md)
+- Stylesheets
+  - [Core](stylesheets/core.md)
 - PHP
   - [Core](php/core.md)
   - [Laravel](php/laravel.md)
