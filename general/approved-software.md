@@ -23,6 +23,7 @@ new issue on this repository.
 * [MySQL Workbench (Universal)](https://www.mysql.com/products/workbench/)
 * [Realm Studio (Universal)](https://realm.io/products/realm-studio/)
 * [TablePlus (Mac/ iOS)](https://tableplus.io/)
+* [HeidiSQL (Windows)](https://www.heidisql.com/)
 * [Microsoft SQL Server Management Studio (Windows)](https://docs.microsoft.com/en-us/sql/ssms/download-sql-server-management-studio-ssms)
 
 ## Git Clients
@@ -36,6 +37,7 @@ new issue on this repository.
 ## SSH Clients
 
 * [OpenSSH SSH client](https://www.openssh.com/)
+* [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
 ## JavaScript Dependency Management
 
