@@ -23,4 +23,6 @@ We work with a number of different software platforms. Each has their own set of
 * 🛠 [DevOps](devops/devops.md)
 * 🔢 [Style Guides](styleguides/styleguides.md)
 * 📖 [Open Source Projects](general/open-source.md)
+* ✏️ Design
+  * [✍️ Design Tools and Resources](design/design-tools.md)
 * 💾 [Approved Software](general/approved-software.md)
