@@ -38,24 +38,24 @@ Variables should ideally be defined in the outermost scope they are consumed.
 In other words, avoid doing the following.
 
 ```php
-            if ($needToFindUse) {
-                $user = User::find($request->user_id);
-            } else {
-                $user = null;
-            }
+if ($needToFindUse) {
+    $user = User::find($request->user_id);
+} else {
+    $user = null;
+}
 
-           // I can use $user here
+// I can use $user here
 ```
 
 And instead, try to do this.
 
 ```php
-            $user = null;
-            if ($needToFindUser)
-                $user = User::find($request->user_id);
-            }
+$user = null;
+if ($needToFindUser)
+    $user = User::find($request->user_id);
+}
 
-           // I can use $user here
+// I can use $user here
 ```
 
 This has the side effect of promoting smaller control structures,
