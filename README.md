@@ -22,6 +22,7 @@ We work with a number of different software platforms. Each has their own set of
 * 🗂  [Databases](general/databases.md)
 * 🛠 [DevOps](devops/devops.md)
 * 🔢 [Style Guides](styleguides/styleguides.md)
+* 🚦 [Quality Assurance](quality-assurance/core.md)
 * 📖 [Open Source Projects](general/open-source.md)
 * ✏️ Design
   * [✍️ Design Tools and Resources](design/design-tools.md)
