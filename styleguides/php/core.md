@@ -28,7 +28,39 @@ Below are a list of exceptions that do not fall within the above documents. Sect
 Discussions will be had every other Friday at close of play to discuss/vote on whether the proposed amendment gets approved. In favour of keeping the standards as simple as possible - an amendment must have an approval rate of over 60%.
 
 #### Variables
-Variable names MUST be defined in camelCase
+
+Variable names MUST be defined in camelCase.
+
+##### Scope
+
+Variables should ideally be defined in the outermost scope they are consumed.
+
+In other words, avoid doing the following.
+
+```php
+            if ($needToFindUse) {
+                $user = User::find($request->user_id);
+            } else {
+                $user = null;
+            }
+
+           // I can use $user here
+```
+
+And instead, try to do this.
+
+```php
+            $user = null;
+            if ($needToFindUser)
+                $user = User::find($request->user_id);
+            }
+
+           // I can use $user here
+```
+
+This has the side effect of promoting smaller control structures,
+reducing the need for unnecessary `else` sections, and can eliminate
+extraneous `isset` or `empty` checks.
 
 #### Methods
 
