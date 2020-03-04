@@ -8,6 +8,8 @@ Having a style guide that we all follow means that all the project's source code
 
 The following style guides are currently outlined:
 
+- HTML
+  - [Core](html/core.md)
 - Javascript
   - [Core](javascript/core.md)
 - Stylesheets
