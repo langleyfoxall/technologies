@@ -1,7 +1,5 @@
 # Langley Foxall Core Javascript Style Guide
 
-This style guide is a set of javascript standards we adhere to regardless of which framework you are using, it's a modified version of the [Airbnb Style Guide](https://github.com/airbnb/javascript).
-
 The style guide assumes you are using a miniumum of ES6 (which you should always be using) & babel to transpile down for your target environment (if needed).
 
 We make use of [ESLint](https://eslint.org/) across the board for our JS projects to ensure conformance to the below styles, a custom eslint preset is coming soon for our modified version of the Airbnb style guide although for now the Airbnb preset can be used with a few rules turned off.
