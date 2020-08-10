@@ -1,11 +1,17 @@
 # Approved Software
 
-For security reasons, Langley Foxall maintain a list of 
-approved software used for development and system access. This list
-is categorised by use case.
+For security reasons, Langley Foxall maintain a list of approved software used for development and system access. This list is categorised by use case.
 
-Suggestions for new approved software should be submitted by filing a
-new issue on this repository.
+Suggestions or requirements for software that is not contained on this list should be submitted by writing an email to Jared Kove for approval. Software outside of that contained on this list musn't be installed until approval is given.
+
+## Web Browsers
+
+* [Google Chrome](https://www.google.com/intl/en_uk/chrome/)
+* [Microsoft Edge](https://www.microsoft.com/en-us/edge)
+* [Chromium](https://www.chromium.org/)
+* [Mozilla Firefox](https://www.mozilla.org/en-GB/firefox/new/)
+* [Brave](https://brave.com/)
+* [Opera](https://www.opera.com/)
 
 ## Integrated Development Environments & Editors
 
@@ -13,6 +19,16 @@ new issue on this repository.
 * [Microsoft Visual Studio Code](https://code.visualstudio.com/)
 * [Microsft Visual Studio](https://visualstudio.microsoft.com/)
 * [Sublime Text](https://www.sublimetext.com/)
+* [Android Studio](https://developer.android.com/studio)
+* [XCode](https://apps.apple.com/gb/app/xcode/id497799835?mt=12)
+* [Android Studio](https://developer.android.com/studio)
+
+## Design Software
+* [Adobe Photoshop](https://www.adobe.com/uk/products/photoshop.html)
+* [Adobe Illustrator](https://www.adobe.com/uk/products/illustrator.html)
+* [Adobe XD](https://www.adobe.com/uk/products/xd.html)
+* [Adobe After Effects](https://www.adobe.com/uk/products/aftereffects.html)
+* [Adobe Premiere Pro](https://www.adobe.com/uk/products/premiere.html)
 
 ## Database Management Tools
 
@@ -27,21 +43,19 @@ new issue on this repository.
 * [git](https://git-scm.com/)
 * [GitHub Desktop](https://desktop.github.com/)
 * [Sublime Merge](https://www.sublimemerge.com/)
-* [Git Kraken](https://www.gitkraken.com/)
+* [GitKraken](https://www.gitkraken.com/)
 * [Git Extensions](https://github.com/gitextensions/gitextensions)
+* [Sublime Merge](https://www.sublimemerge.com/)
 
 ## SSH Clients
 
 * [OpenSSH SSH client](https://www.openssh.com/)
 * [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 
-## JavaScript Dependency Management
+## Dependency Management
 
 * [npm](https://www.npmjs.com/get-npm)
 * [yarn](https://yarnpkg.com/lang/en/)
-
-## PHP Dependency Management
-
 * [Composer](https://getcomposer.org/)
 
 ## API Development / Testing
@@ -51,9 +65,12 @@ new issue on this repository.
 
 ## Third Party Terminals
 
-* [Hyper] (https://hyper.is/)
-* [iTerm2] (https://www.iterm2.com/)
+* [Hyper](https://hyper.is/)
+* [iTerm2](https://www.iterm2.com/)
 
 ## Miscellaneous
 
-* [Misc Tools](misc-tools.md) (?)
+* [Java](https://java.com/en/download/)
+* [Adobe Acrobat Reader](https://get.adobe.com/uk/reader/)
+* [Expo CLI](https://docs.expo.io/workflow/expo-cli/)
+* [Microsoft Office](https://www.microsoft.com/en-gb/download/office.aspx)
