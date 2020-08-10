@@ -1,8 +1,6 @@
 # Approved Software
 
-**This document is a work in progress, and this list is not yet enforced.**
-
-Mainly for security reasons, Langley Foxall maintain a list of 
+For security reasons, Langley Foxall maintain a list of 
 approved software used for development and system access. This list
 is categorised by use case.
 
