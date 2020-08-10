@@ -16,7 +16,6 @@ new issue on this repository.
 
 ## Database Management Tools
 
-* [Sequel Pro (Mac)](https://www.sequelpro.com/)
 * [JetBrains DataGrip (Universal)](https://www.jetbrains.com/datagrip/download/)
 * [MySQL Workbench (Universal)](https://www.mysql.com/products/workbench/)
 * [Realm Studio (Universal)](https://realm.io/products/realm-studio/)
