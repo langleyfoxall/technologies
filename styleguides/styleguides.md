@@ -12,6 +12,7 @@ The following style guides are currently outlined:
   - [Core](html/core.md)
 - Javascript
   - [Core](javascript/core.md)
+  - [React](javascript/react.md)
 - Stylesheets
   - [Core](stylesheets/core.md)
 - PHP
